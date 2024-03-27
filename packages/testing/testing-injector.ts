@@ -1,11 +1,11 @@
-import { NestContainer } from '@nestjs/core';
-import { STATIC_CONTEXT } from '@nestjs/core/injector/constants';
+import { NestContainer } from '@fily-cloud/core';
+import { STATIC_CONTEXT } from '@fily-cloud/core/injector/constants';
 import {
   Injector,
   InjectorDependencyContext,
-} from '@nestjs/core/injector/injector';
-import { InstanceWrapper } from '@nestjs/core/injector/instance-wrapper';
-import { Module } from '@nestjs/core/injector/module';
+} from '@fily-cloud/core/injector/injector';
+import { InstanceWrapper } from '@fily-cloud/core/injector/instance-wrapper';
+import { Module } from '@fily-cloud/core/injector/module';
 import { MockFactory } from './interfaces';
 
 /**

@@ -5,7 +5,7 @@ import {
   MiddlewareConsumer,
   Module,
 } from '@fily-cloud/common';
-import { RouterModule } from '@nestjs/core';
+import { RouterModule } from '@fily-cloud/core';
 import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';

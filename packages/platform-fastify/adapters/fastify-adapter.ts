@@ -122,8 +122,6 @@ export class FastifyAdapter<
     TRawResponse
   > = FastifyInstance<TServer, TRawRequest, TRawResponse>,
 > extends AbstractHttpAdapter<TServer, TRequest, TReply> {
-  protected readonly instance: TInstance;
-
   private _isParserRegistered: boolean;
   private isMiddieRegistered: boolean;
   private versioningOptions: VersioningOptions;

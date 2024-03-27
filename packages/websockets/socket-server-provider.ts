@@ -2,7 +2,7 @@ import {
   addLeadingSlash,
   isString,
 } from '@fily-cloud/common/utils/shared.utils';
-import { ApplicationConfig } from '@nestjs/core/application-config';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
 import { ServerAndEventStreamsFactory } from './factories/server-and-event-streams-factory';
 import { GatewayMetadata } from './interfaces/gateway-metadata.interface';
 import { ServerAndEventStreamsHost } from './interfaces/server-and-event-streams-host.interface';

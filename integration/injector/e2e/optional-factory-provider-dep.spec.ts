@@ -1,5 +1,5 @@
 import { Scope } from '@fily-cloud/common';
-import { UnknownDependenciesException } from '@nestjs/core/errors/exceptions/unknown-dependencies.exception';
+import { UnknownDependenciesException } from '@fily-cloud/core/errors/exceptions/unknown-dependencies.exception';
 import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 

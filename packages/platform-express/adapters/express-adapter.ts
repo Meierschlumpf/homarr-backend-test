@@ -22,8 +22,8 @@ import {
   isString,
   isUndefined,
 } from '@fily-cloud/common/utils/shared.utils';
-import { AbstractHttpAdapter } from '@nestjs/core/adapters/http-adapter';
-import { RouterMethodFactory } from '@nestjs/core/helpers/router-method-factory';
+import { AbstractHttpAdapter } from '@fily-cloud/core/adapters/http-adapter';
+import { RouterMethodFactory } from '@fily-cloud/core/helpers/router-method-factory';
 import {
   json as bodyParserJson,
   urlencoded as bodyParserUrlencoded,

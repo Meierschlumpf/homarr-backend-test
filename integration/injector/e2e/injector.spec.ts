@@ -1,6 +1,6 @@
-import { RuntimeException } from '@nestjs/core/errors/exceptions/runtime.exception';
-import { UnknownDependenciesException } from '@nestjs/core/errors/exceptions/unknown-dependencies.exception';
-import { UnknownExportException } from '@nestjs/core/errors/exceptions/unknown-export.exception';
+import { RuntimeException } from '@fily-cloud/core/errors/exceptions/runtime.exception';
+import { UnknownDependenciesException } from '@fily-cloud/core/errors/exceptions/unknown-dependencies.exception';
+import { UnknownExportException } from '@fily-cloud/core/errors/exceptions/unknown-export.exception';
 import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as chai from 'chai';

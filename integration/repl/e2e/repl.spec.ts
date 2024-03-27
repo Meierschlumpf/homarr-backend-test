@@ -1,6 +1,6 @@
 import { clc } from '@fily-cloud/common/utils/cli-colors.util';
-import { repl } from '@nestjs/core';
-import { ReplContext } from '@nestjs/core/repl/repl-context';
+import { repl } from '@fily-cloud/core';
+import { ReplContext } from '@fily-cloud/core/repl/repl-context';
 import {
   HelpReplFn,
   GetReplFn,
@@ -8,7 +8,7 @@ import {
   SelectReplFn,
   DebugReplFn,
   MethodsReplFn,
-} from '@nestjs/core/repl/native-functions';
+} from '@fily-cloud/core/repl/native-functions';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { AppModule } from '../src/app.module';

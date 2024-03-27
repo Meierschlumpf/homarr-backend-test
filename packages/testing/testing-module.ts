@@ -14,11 +14,11 @@ import {
   AbstractHttpAdapter,
   NestApplication,
   NestApplicationContext,
-} from '@nestjs/core';
-import { ApplicationConfig } from '@nestjs/core/application-config';
-import { NestContainer } from '@nestjs/core/injector/container';
-import { Module } from '@nestjs/core/injector/module';
-import { GraphInspector } from '@nestjs/core/inspector/graph-inspector';
+} from '@fily-cloud/core';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
+import { NestContainer } from '@fily-cloud/core/injector/container';
+import { Module } from '@fily-cloud/core/injector/module';
+import { GraphInspector } from '@fily-cloud/core/inspector/graph-inspector';
 
 /**
  * @publicApi
@@ -87,7 +87,7 @@ export class TestingModule extends NestApplicationContext {
     const { NestMicroservice } = loadPackage(
       '@nestjs/microservices',
       'TestingModule',
-      () => require('@nestjs/microservices'),
+      () => require('@fily-cloud/microservices'),
     );
     this.applyLogger(options);
     return new NestMicroservice(
@@ -102,7 +102,7 @@ export class TestingModule extends NestApplicationContext {
     const { ExpressAdapter } = loadPackage(
       '@nestjs/platform-express',
       'NestFactory',
-      () => require('@nestjs/platform-express'),
+      () => require('@fily-cloud/platform-express'),
     );
     return new ExpressAdapter(httpServer);
   }

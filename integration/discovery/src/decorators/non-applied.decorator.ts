@@ -1,4 +1,4 @@
-import { DiscoveryService } from '@nestjs/core';
+import { DiscoveryService } from '@fily-cloud/core';
 
 /**
  * This decorator must not be used anywhere!

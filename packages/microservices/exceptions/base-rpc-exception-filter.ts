@@ -1,7 +1,7 @@
 /* eslint-disable prefer-spread */
 import { ArgumentsHost, Logger, RpcExceptionFilter } from '@fily-cloud/common';
 import { isObject } from '@fily-cloud/common/utils/shared.utils';
-import { MESSAGES } from '@nestjs/core/constants';
+import { MESSAGES } from '@fily-cloud/core/constants';
 import { Observable, throwError as _throw } from 'rxjs';
 import { RpcException } from './rpc-exception';
 

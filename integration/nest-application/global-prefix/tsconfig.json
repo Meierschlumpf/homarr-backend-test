@@ -14,8 +14,8 @@
     "paths": {
       "@fily-cloud/common": ["../../../packages/common"],
       "@fily-cloud/common/*": ["../../../packages/common/*"],
-      "@nestjs/core": ["../../../packages/core"],
-      "@nestjs/core/*": ["../../../packages/core/*"],
+      "@fily-cloud/core": ["../../../packages/core"],
+      "@fily-cloud/core/*": ["../../../packages/core/*"],
       "@nestjs/microservices": ["../../../packages/microservices"],
       "@nestjs/microservices/*": ["../../../packages/microservices/*"],
       "@fily-cloud/websockets": ["../../../packages/websockets"],

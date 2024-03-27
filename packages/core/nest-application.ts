@@ -49,7 +49,7 @@ const { SocketModule } = optionalRequire(
 );
 const { MicroservicesModule } = optionalRequire(
   '@nestjs/microservices/microservices-module',
-  () => require('@nestjs/microservices/microservices-module'),
+  () => require('@fily-cloud/microservices/microservices-module'),
 );
 
 /**
@@ -225,7 +225,7 @@ export class NestApplication
     const { NestMicroservice } = loadPackage(
       '@nestjs/microservices',
       'NestFactory',
-      () => require('@nestjs/microservices'),
+      () => require('@fily-cloud/microservices'),
     );
     const { inheritAppConfig } = hybridAppOptions;
     const applicationConfig = inheritAppConfig

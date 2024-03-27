@@ -1,6 +1,6 @@
 import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
 import { isFunction, isUndefined } from '@fily-cloud/common/utils/shared.utils';
-import { MetadataScanner } from '@nestjs/core/metadata-scanner';
+import { MetadataScanner } from '@fily-cloud/core/metadata-scanner';
 import {
   CLIENT_CONFIGURATION_METADATA,
   CLIENT_METADATA,

@@ -1,4 +1,4 @@
-import { ExecutionContextHost } from '@nestjs/core/helpers/execution-context-host';
+import { ExecutionContextHost } from '@fily-cloud/core/helpers/execution-context-host';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { WsException } from '../../errors/ws-exception';

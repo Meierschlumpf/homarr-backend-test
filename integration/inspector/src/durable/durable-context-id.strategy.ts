@@ -1,4 +1,8 @@
-import { ContextId, ContextIdStrategy, HostComponentInfo } from '@nestjs/core';
+import {
+  ContextId,
+  ContextIdStrategy,
+  HostComponentInfo,
+} from '@fily-cloud/core';
 import { Request } from 'express';
 
 const tenants = new Map<string, ContextId>();

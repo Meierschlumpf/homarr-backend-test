@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@fily-cloud/common": "10.3.2",
-    "@nestjs/core": "10.3.2",
+    "@fily-cloud/core": "10.3.2",
     "@nestjs/microservices": "10.3.2",
     "@nestjs/platform-express": "10.3.2",
     "class-transformer": "0.5.1",

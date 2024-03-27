@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@fily-cloud/testing';
-import { DiscoveryService } from '@nestjs/core';
+import { DiscoveryService } from '@fily-cloud/core';
 import { expect } from 'chai';
 import { AppModule } from '../src/app.module';
 import { WebhooksExplorer } from '../src/webhooks.explorer';

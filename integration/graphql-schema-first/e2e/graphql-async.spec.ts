@@ -1,5 +1,5 @@
 import { INestApplication } from '@fily-cloud/common';
-import { NestFactory } from '@nestjs/core';
+import { NestFactory } from '@fily-cloud/core';
 import * as request from 'supertest';
 import { AsyncApplicationModule } from '../src/async-options.module';
 

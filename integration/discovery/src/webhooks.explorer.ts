@@ -1,5 +1,5 @@
 import { Injectable } from '@fily-cloud/common';
-import { DiscoveryService, MetadataScanner } from '@nestjs/core';
+import { DiscoveryService, MetadataScanner } from '@fily-cloud/core';
 import { Webhook, WebhookHandler } from './decorators/webhook.decorators';
 
 @Injectable()

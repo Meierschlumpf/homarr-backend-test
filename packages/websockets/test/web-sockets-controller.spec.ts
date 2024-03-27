@@ -1,5 +1,5 @@
-import { NestContainer } from '@nestjs/core';
-import { ApplicationConfig } from '@nestjs/core/application-config';
+import { NestContainer } from '@fily-cloud/core';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
 import { expect } from 'chai';
 import { fromEvent, lastValueFrom, Observable, of } from 'rxjs';
 import * as sinon from 'sinon';

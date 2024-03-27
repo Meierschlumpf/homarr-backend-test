@@ -118,7 +118,7 @@ export class NestFactoryStatic {
     const { NestMicroservice } = loadPackage(
       '@nestjs/microservices',
       'NestFactory',
-      () => require('@nestjs/microservices'),
+      () => require('@fily-cloud/microservices'),
     );
     const applicationConfig = new ApplicationConfig();
     const container = new NestContainer(applicationConfig);
@@ -297,7 +297,7 @@ export class NestFactoryStatic {
     const { ExpressAdapter } = loadAdapter(
       '@nestjs/platform-express',
       'HTTP',
-      () => require('@nestjs/platform-express'),
+      () => require('@fily-cloud/platform-express'),
     );
     return new ExpressAdapter(httpServer);
   }

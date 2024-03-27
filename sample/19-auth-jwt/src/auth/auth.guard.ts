@@ -4,7 +4,7 @@ import {
   Injectable,
   UnauthorizedException,
 } from '@fily-cloud/common';
-import { Reflector } from '@nestjs/core';
+import { Reflector } from '@fily-cloud/core';
 import { JwtService } from '@nestjs/jwt';
 import { Request } from 'express';
 import { jwtConstants } from './constants';

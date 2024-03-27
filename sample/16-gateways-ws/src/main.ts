@@ -1,4 +1,4 @@
-import { NestFactory } from '@nestjs/core';
+import { NestFactory } from '@fily-cloud/core';
 import { WsAdapter } from '@nestjs/platform-ws';
 import { AppModule } from './app.module';
 

@@ -1,5 +1,5 @@
 import { INestApplication } from '@fily-cloud/common';
-import { ContextIdFactory } from '@nestjs/core';
+import { ContextIdFactory } from '@fily-cloud/core';
 import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as request from 'supertest';

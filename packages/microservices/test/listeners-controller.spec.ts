@@ -1,9 +1,9 @@
 import { Scope } from '@fily-cloud/common';
-import { ApplicationConfig } from '@nestjs/core';
-import { ExecutionContextHost } from '@nestjs/core/helpers/execution-context-host';
-import { NestContainer } from '@nestjs/core/injector/container';
-import { Injector } from '@nestjs/core/injector/injector';
-import { InstanceWrapper } from '@nestjs/core/injector/instance-wrapper';
+import { ApplicationConfig } from '@fily-cloud/core';
+import { ExecutionContextHost } from '@fily-cloud/core/helpers/execution-context-host';
+import { NestContainer } from '@fily-cloud/core/injector/container';
+import { Injector } from '@fily-cloud/core/injector/injector';
+import { InstanceWrapper } from '@fily-cloud/core/injector/instance-wrapper';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { GraphInspector } from '../../core/inspector/graph-inspector';

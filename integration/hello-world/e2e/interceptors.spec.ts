@@ -5,7 +5,7 @@ import {
   Injectable,
   NestInterceptor,
 } from '@fily-cloud/common';
-import { APP_INTERCEPTOR } from '@nestjs/core';
+import { APP_INTERCEPTOR } from '@fily-cloud/core';
 import { Test } from '@fily-cloud/testing';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';

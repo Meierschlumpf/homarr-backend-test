@@ -1,4 +1,4 @@
-import { NestContainer } from '@nestjs/core/injector/container';
+import { NestContainer } from '@fily-cloud/core/injector/container';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { Catch } from '../../../common/decorators/core/catch.decorator';

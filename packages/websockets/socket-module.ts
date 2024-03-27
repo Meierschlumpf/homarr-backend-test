@@ -1,17 +1,17 @@
 import { InjectionToken } from '@fily-cloud/common/interfaces';
 import { Injectable } from '@fily-cloud/common/interfaces/injectable.interface';
 import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
-import { ApplicationConfig } from '@nestjs/core/application-config';
-import { GuardsConsumer } from '@nestjs/core/guards/guards-consumer';
-import { GuardsContextCreator } from '@nestjs/core/guards/guards-context-creator';
-import { loadAdapter } from '@nestjs/core/helpers/load-adapter';
-import { NestContainer } from '@nestjs/core/injector/container';
-import { InstanceWrapper } from '@nestjs/core/injector/instance-wrapper';
-import { GraphInspector } from '@nestjs/core/inspector/graph-inspector';
-import { InterceptorsConsumer } from '@nestjs/core/interceptors/interceptors-consumer';
-import { InterceptorsContextCreator } from '@nestjs/core/interceptors/interceptors-context-creator';
-import { PipesConsumer } from '@nestjs/core/pipes/pipes-consumer';
-import { PipesContextCreator } from '@nestjs/core/pipes/pipes-context-creator';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
+import { GuardsConsumer } from '@fily-cloud/core/guards/guards-consumer';
+import { GuardsContextCreator } from '@fily-cloud/core/guards/guards-context-creator';
+import { loadAdapter } from '@fily-cloud/core/helpers/load-adapter';
+import { NestContainer } from '@fily-cloud/core/injector/container';
+import { InstanceWrapper } from '@fily-cloud/core/injector/instance-wrapper';
+import { GraphInspector } from '@fily-cloud/core/inspector/graph-inspector';
+import { InterceptorsConsumer } from '@fily-cloud/core/interceptors/interceptors-consumer';
+import { InterceptorsContextCreator } from '@fily-cloud/core/interceptors/interceptors-context-creator';
+import { PipesConsumer } from '@fily-cloud/core/pipes/pipes-consumer';
+import { PipesContextCreator } from '@fily-cloud/core/pipes/pipes-context-creator';
 import { iterate } from 'iterare';
 import { AbstractWsAdapter } from './adapters';
 import { GATEWAY_METADATA } from './constants';
@@ -119,9 +119,9 @@ export class SocketModule<
       return;
     }
     const { IoAdapter } = loadAdapter(
-      '@nestjs/platform-socket.io',
+      '@fily-cloud/platform-socket.io',
       'WebSockets',
-      () => require('@nestjs/platform-socket.io'),
+      () => require('@fily-cloud/platform-socket.io'),
     );
     const ioAdapter = new IoAdapter(this.httpServer);
     this.applicationConfig.setIoAdapter(ioAdapter);

@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { CoreInjectablesModule } from '../src/core-injectables/core-injectables.module';
-import { ApplicationConfig, ModuleRef } from '@nestjs/core';
+import { ApplicationConfig, ModuleRef } from '@fily-cloud/core';
 
 describe('Core Injectables', () => {
   let testingModule: TestingModule;

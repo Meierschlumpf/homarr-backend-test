@@ -1,9 +1,9 @@
 import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
 import { Type } from '@fily-cloud/common/interfaces/type.interface';
 import { Logger } from '@fily-cloud/common/services/logger.service';
-import { ApplicationConfig } from '@nestjs/core/application-config';
-import { GraphInspector } from '@nestjs/core/inspector/graph-inspector';
-import { MetadataScanner } from '@nestjs/core/metadata-scanner';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
+import { GraphInspector } from '@fily-cloud/core/inspector/graph-inspector';
+import { MetadataScanner } from '@fily-cloud/core/metadata-scanner';
 import {
   from as fromPromise,
   isObservable,

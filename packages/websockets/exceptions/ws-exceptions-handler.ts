@@ -2,7 +2,7 @@ import { isEmpty } from '@fily-cloud/common/utils/shared.utils';
 import { ArgumentsHost } from '@fily-cloud/common';
 import { ExceptionFilterMetadata } from '@fily-cloud/common/interfaces/exceptions/exception-filter-metadata.interface';
 import { selectExceptionFilterMetadata } from '@fily-cloud/common/utils/select-exception-filter-metadata.util';
-import { InvalidExceptionFilterException } from '@nestjs/core/errors/exceptions/invalid-exception-filter.exception';
+import { InvalidExceptionFilterException } from '@fily-cloud/core/errors/exceptions/invalid-exception-filter.exception';
 import { WsException } from '../errors/ws-exception';
 import { BaseWsExceptionFilter } from './base-ws-exception-filter';
 

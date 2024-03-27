@@ -1,6 +1,6 @@
 import { ArgumentsHost, Logger, WsExceptionFilter } from '@fily-cloud/common';
 import { isObject } from '@fily-cloud/common/utils/shared.utils';
-import { MESSAGES } from '@nestjs/core/constants';
+import { MESSAGES } from '@fily-cloud/core/constants';
 import { WsException } from '../errors/ws-exception';
 
 /**

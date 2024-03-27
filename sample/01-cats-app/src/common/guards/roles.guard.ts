@@ -1,5 +1,5 @@
 import { CanActivate, ExecutionContext, Injectable } from '@fily-cloud/common';
-import { Reflector } from '@nestjs/core';
+import { Reflector } from '@fily-cloud/core';
 import { Roles } from '../decorators/roles.decorator';
 
 @Injectable()

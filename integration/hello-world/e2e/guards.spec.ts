@@ -3,7 +3,7 @@ import {
   Injectable,
   UnauthorizedException,
 } from '@fily-cloud/common';
-import { APP_GUARD } from '@nestjs/core';
+import { APP_GUARD } from '@fily-cloud/core';
 import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';

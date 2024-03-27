@@ -1,5 +1,5 @@
 import { Inject, Injectable, Logger, Scope } from '@fily-cloud/common';
-import { INQUIRER, REQUEST } from '@nestjs/core';
+import { INQUIRER, REQUEST } from '@fily-cloud/core';
 
 @Injectable({ scope: Scope.TRANSIENT })
 export class RequestLogger {

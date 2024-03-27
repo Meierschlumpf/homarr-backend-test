@@ -1,5 +1,5 @@
-import { InstanceLoader } from '@nestjs/core/injector/instance-loader';
-import { Module } from '@nestjs/core/injector/module';
+import { InstanceLoader } from '@fily-cloud/core/injector/instance-loader';
+import { Module } from '@fily-cloud/core/injector/module';
 import { MockFactory } from './interfaces';
 import { TestingInjector } from './testing-injector';
 

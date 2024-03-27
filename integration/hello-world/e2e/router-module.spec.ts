@@ -1,5 +1,5 @@
 import { Controller, Get, INestApplication, Module } from '@fily-cloud/common';
-import { RouterModule, Routes } from '@nestjs/core';
+import { RouterModule, Routes } from '@fily-cloud/core';
 import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 

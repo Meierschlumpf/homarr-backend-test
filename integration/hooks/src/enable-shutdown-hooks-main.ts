@@ -4,7 +4,7 @@ import {
   Module,
   OnApplicationShutdown,
 } from '@fily-cloud/common';
-import { NestFactory } from '@nestjs/core';
+import { NestFactory } from '@fily-cloud/core';
 const SIGNAL = process.argv[2];
 const SIGNAL_TO_LISTEN = process.argv[3];
 

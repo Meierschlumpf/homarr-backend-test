@@ -1,4 +1,4 @@
-import { ApplicationConfig } from '@nestjs/core/application-config';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { AbstractWsAdapter } from '../adapters/ws-adapter';

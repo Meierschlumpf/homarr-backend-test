@@ -6,7 +6,7 @@ import {
   Injectable,
   Module,
 } from '@fily-cloud/common';
-import { LazyModuleLoader } from '@nestjs/core';
+import { LazyModuleLoader } from '@fily-cloud/core';
 import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 

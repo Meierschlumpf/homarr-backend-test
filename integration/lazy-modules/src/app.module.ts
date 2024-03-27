@@ -1,5 +1,5 @@
 import { Module } from '@fily-cloud/common';
-import { LazyModuleLoader } from '@nestjs/core';
+import { LazyModuleLoader } from '@fily-cloud/core';
 import { EagerModule } from './eager.module';
 import { GlobalModule } from './global.module';
 import { LazyModule } from './lazy.module';

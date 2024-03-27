@@ -1,5 +1,5 @@
 import { Injectable } from '@fily-cloud/common';
-import { RouteInfoPathExtractor } from '@nestjs/core/middleware/route-info-path-extractor';
+import { RouteInfoPathExtractor } from '@fily-cloud/core/middleware/route-info-path-extractor';
 import * as chai from 'chai';
 import { expect } from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';

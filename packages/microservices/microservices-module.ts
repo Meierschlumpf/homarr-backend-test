@@ -1,17 +1,17 @@
 import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
 import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
-import { ApplicationConfig } from '@nestjs/core/application-config';
-import { RuntimeException } from '@nestjs/core/errors/exceptions/runtime.exception';
-import { GuardsConsumer, GuardsContextCreator } from '@nestjs/core/guards';
-import { NestContainer } from '@nestjs/core/injector/container';
-import { Injector } from '@nestjs/core/injector/injector';
-import { InstanceWrapper } from '@nestjs/core/injector/instance-wrapper';
-import { GraphInspector } from '@nestjs/core/inspector/graph-inspector';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
+import { RuntimeException } from '@fily-cloud/core/errors/exceptions/runtime.exception';
+import { GuardsConsumer, GuardsContextCreator } from '@fily-cloud/core/guards';
+import { NestContainer } from '@fily-cloud/core/injector/container';
+import { Injector } from '@fily-cloud/core/injector/injector';
+import { InstanceWrapper } from '@fily-cloud/core/injector/instance-wrapper';
+import { GraphInspector } from '@fily-cloud/core/inspector/graph-inspector';
 import {
   InterceptorsConsumer,
   InterceptorsContextCreator,
-} from '@nestjs/core/interceptors';
-import { PipesConsumer, PipesContextCreator } from '@nestjs/core/pipes';
+} from '@fily-cloud/core/interceptors';
+import { PipesConsumer, PipesContextCreator } from '@fily-cloud/core/pipes';
 import { ClientProxyFactory } from './client';
 import { ClientsContainer } from './container';
 import { ExceptionFiltersContext } from './context/exception-filters-context';

@@ -1,6 +1,6 @@
 import { RequestMethod, VersioningType } from '@fily-cloud/common';
-import { ApplicationConfig } from '@nestjs/core';
-import { mapToExcludeRoute } from '@nestjs/core/middleware/utils';
+import { ApplicationConfig } from '@fily-cloud/core';
+import { mapToExcludeRoute } from '@fily-cloud/core/middleware/utils';
 import { expect } from 'chai';
 import { RouteInfoPathExtractor } from './../../middleware/route-info-path-extractor';
 

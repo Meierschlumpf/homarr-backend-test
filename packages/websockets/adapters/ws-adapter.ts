@@ -1,7 +1,7 @@
 import { INestApplicationContext, WebSocketAdapter } from '@fily-cloud/common';
 import { WsMessageHandler } from '@fily-cloud/common/interfaces';
 import { isFunction } from '@fily-cloud/common/utils/shared.utils';
-import { NestApplication } from '@nestjs/core';
+import { NestApplication } from '@fily-cloud/core';
 import { Observable } from 'rxjs';
 import { CONNECTION_EVENT, DISCONNECT_EVENT } from '../constants';
 

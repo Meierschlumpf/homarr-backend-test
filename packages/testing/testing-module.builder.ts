@@ -5,18 +5,18 @@ import {
   ModuleMetadata,
 } from '@fily-cloud/common';
 import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
-import { ApplicationConfig } from '@nestjs/core/application-config';
-import { NestContainer } from '@nestjs/core/injector/container';
-import { GraphInspector } from '@nestjs/core/inspector/graph-inspector';
-import { NoopGraphInspector } from '@nestjs/core/inspector/noop-graph-inspector';
+import { ApplicationConfig } from '@fily-cloud/core/application-config';
+import { NestContainer } from '@fily-cloud/core/injector/container';
+import { GraphInspector } from '@fily-cloud/core/inspector/graph-inspector';
+import { NoopGraphInspector } from '@fily-cloud/core/inspector/noop-graph-inspector';
 import {
   UuidFactory,
   UuidFactoryMode,
-} from '@nestjs/core/inspector/uuid-factory';
-import { ModuleDefinition } from '@nestjs/core/interfaces/module-definition.interface';
-import { ModuleOverride } from '@nestjs/core/interfaces/module-override.interface';
-import { MetadataScanner } from '@nestjs/core/metadata-scanner';
-import { DependenciesScanner } from '@nestjs/core/scanner';
+} from '@fily-cloud/core/inspector/uuid-factory';
+import { ModuleDefinition } from '@fily-cloud/core/interfaces/module-definition.interface';
+import { ModuleOverride } from '@fily-cloud/core/interfaces/module-override.interface';
+import { MetadataScanner } from '@fily-cloud/core/metadata-scanner';
+import { DependenciesScanner } from '@fily-cloud/core/scanner';
 import {
   MockFactory,
   OverrideBy,

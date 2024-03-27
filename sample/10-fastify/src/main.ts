@@ -1,5 +1,5 @@
 import { ValidationPipe } from '@fily-cloud/common';
-import { NestFactory } from '@nestjs/core';
+import { NestFactory } from '@fily-cloud/core';
 import {
   FastifyAdapter,
   NestFastifyApplication,

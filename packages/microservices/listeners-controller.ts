@@ -1,19 +1,19 @@
 import { Injectable } from '@fily-cloud/common/interfaces';
 import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
 import { isUndefined } from '@fily-cloud/common/utils/shared.utils';
-import { ContextIdFactory } from '@nestjs/core/helpers/context-id-factory';
-import { ExecutionContextHost } from '@nestjs/core/helpers/execution-context-host';
-import { STATIC_CONTEXT } from '@nestjs/core/injector/constants';
-import { NestContainer } from '@nestjs/core/injector/container';
-import { Injector } from '@nestjs/core/injector/injector';
+import { ContextIdFactory } from '@fily-cloud/core/helpers/context-id-factory';
+import { ExecutionContextHost } from '@fily-cloud/core/helpers/execution-context-host';
+import { STATIC_CONTEXT } from '@fily-cloud/core/injector/constants';
+import { NestContainer } from '@fily-cloud/core/injector/container';
+import { Injector } from '@fily-cloud/core/injector/injector';
 import {
   ContextId,
   InstanceWrapper,
-} from '@nestjs/core/injector/instance-wrapper';
-import { Module } from '@nestjs/core/injector/module';
-import { GraphInspector } from '@nestjs/core/inspector/graph-inspector';
-import { MetadataScanner } from '@nestjs/core/metadata-scanner';
-import { REQUEST_CONTEXT_ID } from '@nestjs/core/router/request/request-constants';
+} from '@fily-cloud/core/injector/instance-wrapper';
+import { Module } from '@fily-cloud/core/injector/module';
+import { GraphInspector } from '@fily-cloud/core/inspector/graph-inspector';
+import { MetadataScanner } from '@fily-cloud/core/metadata-scanner';
+import { REQUEST_CONTEXT_ID } from '@fily-cloud/core/router/request/request-constants';
 import {
   forkJoin,
   from as fromPromise,

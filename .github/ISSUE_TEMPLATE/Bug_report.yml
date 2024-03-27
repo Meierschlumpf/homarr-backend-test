@@ -79,7 +79,7 @@ body:
       options:
         - label: "I don't know. Or some 3rd-party package"
         - label: '<code>@fily-cloud/common</code>'
-        - label: '<code>@nestjs/core</code>'
+        - label: '<code>@fily-cloud/core</code>'
         - label: '<code>@nestjs/microservices</code>'
         - label: '<code>@nestjs/platform-express</code>'
         - label: '<code>@nestjs/platform-fastify</code>'
@@ -98,7 +98,7 @@ body:
     attributes:
       label: 'NestJS version'
       description: |
-        Which version of `@nestjs/core` are you using?
+        Which version of `@fily-cloud/core` are you using?
         **Tip**: Make sure that all of yours `@nestjs/*` dependencies are in sync!
       placeholder: '8.1.3'
 

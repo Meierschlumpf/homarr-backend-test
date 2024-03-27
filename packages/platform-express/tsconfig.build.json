@@ -6,8 +6,8 @@
     "paths": {
       "@fily-cloud/common": ["../common"],
       "@fily-cloud/common/*": ["../common/*"],
-      "@nestjs/core": ["../core"],
-      "@nestjs/core/*": ["../core/*"]
+      "@fily-cloud/core": ["../core"],
+      "@fily-cloud/core/*": ["../core/*"]
     }
   },
   "exclude": ["node_modules", "dist", "test/**/*", "*.spec.ts"],

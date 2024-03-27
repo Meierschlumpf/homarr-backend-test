@@ -1,7 +1,7 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-const core_1 = require('@nestjs/core');
-const fastify_platform_1 = require('@nestjs/platform-fastify');
+const core_1 = require('@fily-cloud/core');
+const fastify_platform_1 = require('@fily-cloud/platform-fastify');
 const app_module_1 = require('./nest/app.module');
 core_1.NestFactory.create(
   app_module_1.AppModule,

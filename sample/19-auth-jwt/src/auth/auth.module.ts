@@ -1,5 +1,5 @@
 import { Module } from '@fily-cloud/common';
-import { APP_GUARD } from '@nestjs/core';
+import { APP_GUARD } from '@fily-cloud/core';
 import { JwtModule } from '@nestjs/jwt';
 import { UsersModule } from '../users/users.module';
 import { AuthController } from './auth.controller';
