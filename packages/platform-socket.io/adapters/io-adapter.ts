@@ -1,4 +1,4 @@
-import { isFunction, isNil } from '@nestjs/common/utils/shared.utils';
+import { isFunction, isNil } from '@fily-cloud/common/utils/shared.utils';
 import {
   AbstractWsAdapter,
   MessageMappingProperties,
