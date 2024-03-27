@@ -1,6 +1,6 @@
 {
   "name": "@fily-cloud/core",
-  "version": "10.3.6",
+  "version": "0.1.0",
   "description": "Nest - modern, fast, powerful node.js web framework (@core)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
@@ -36,7 +36,7 @@
     "uid": "2.0.2"
   },
   "devDependencies": {
-    "@fily-cloud/common": "10.3.6"
+    "@fily-cloud/common": "^0.1.0"
   },
   "peerDependencies": {
     "@fily-cloud/common": "^10.0.0",

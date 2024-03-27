@@ -1,6 +1,6 @@
 {
   "name": "@fily-cloud/common",
-  "version": "10.3.6",
+  "version": "0.1.0",
   "description": "Nest - modern, fast, powerful node.js web framework (@common)",
   "author": "Kamil Mysliwiec",
   "homepage": "https://nestjs.com",
