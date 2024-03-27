@@ -1,7 +1,7 @@
 {
   "lerna": "2.4.0",
   "packages": [
-    "packages/*"
+    "tsup/@fily-cloud/*"
   ],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }

@@ -1,0 +1,35 @@
+{
+  "name": "@fily-cloud/platform-express",
+  "version": "0.1.1",
+  "description": "Nest - modern, fast, powerful node.js web framework (@platform-express)",
+  "author": "Kamil Mysliwiec",
+  "license": "MIT",
+  "homepage": "https://nestjs.com",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/nest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjs/nest.git",
+    "directory": "packages/platform-express"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "express": "4.19.2",
+    "multer": "1.4.4-lts.1",
+    "tslib": "2.6.2"
+  },
+  "devDependencies": {
+    "@fily-cloud/common": "0.1.1",
+    "@fily-cloud/core": "0.1.1"
+  },
+  "peerDependencies": {
+    "@fily-cloud/common": "^10.0.0",
+    "@fily-cloud/core": "^10.0.0"
+  }
+}

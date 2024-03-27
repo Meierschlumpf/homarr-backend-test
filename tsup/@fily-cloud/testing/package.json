@@ -1,0 +1,37 @@
+{
+  "name": "@fily-cloud/testing",
+  "version": "0.1.1",
+  "description": "Nest - modern, fast, powerful node.js web framework (@testing)",
+  "author": "Kamil Mysliwiec",
+  "license": "MIT",
+  "homepage": "https://nestjs.com",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/nest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjs/nest.git",
+    "directory": "packages/testing"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tslib": "2.6.2"
+  },
+  "peerDependencies": {
+    "@fily-cloud/common": "^10.0.0",
+    "@fily-cloud/core": "^10.0.0",
+    "@fily-cloud/microservices": "^10.0.0",
+    "@fily-cloud/platform-express": "^10.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@fily-cloud/microservices": {
+      "optional": true
+    },
+    "@fily-cloud/platform-express": {
+      "optional": true
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "@fily-cloud/core",
+  "version": "0.1.1",
+  "description": "Nest - modern, fast, powerful node.js web framework (@core)",
+  "author": "Kamil Mysliwiec",
+  "license": "MIT",
+  "homepage": "https://nestjs.com",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/nest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjs/nest.git",
+    "directory": "packages/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "opencollective || exit 0"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/nest",
+    "donation": {
+      "text": "Become a partner:"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/opencollective": "0.3.2",
+    "fast-safe-stringify": "2.1.1",
+    "iterare": "1.2.1",
+    "path-to-regexp": "3.2.0",
+    "tslib": "2.6.2",
+    "uid": "2.0.2"
+  },
+  "devDependencies": {
+    "@fily-cloud/common": "0.1.1"
+  },
+  "peerDependencies": {
+    "@fily-cloud/common": "^10.0.0",
+    "@fily-cloud/microservices": "^10.0.0",
+    "@fily-cloud/platform-express": "^10.0.0",
+    "@fily-cloud/websockets": "^10.0.0",
+    "reflect-metadata": "^0.1.12 || ^0.2.0",
+    "rxjs": "^7.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@fily-cloud/websockets": {
+      "optional": true
+    },
+    "@fily-cloud/microservices": {
+      "optional": true
+    },
+    "@fily-cloud/platform-express": {
+      "optional": true
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@fily-cloud/websockets",
+  "version": "0.1.1",
+  "description": "Nest - modern, fast, powerful node.js web framework (@websockets)",
+  "author": "Kamil Mysliwiec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjs/nest.git",
+    "directory": "packages/websockets"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "iterare": "1.2.1",
+    "object-hash": "3.0.0",
+    "tslib": "2.6.2"
+  },
+  "devDependencies": {
+    "@fily-cloud/common": "0.1.1",
+    "@fily-cloud/core": "0.1.1"
+  },
+  "peerDependencies": {
+    "@fily-cloud/common": "^10.0.0",
+    "@fily-cloud/core": "^10.0.0",
+    "@fily-cloud/platform-socket.io": "^10.0.0",
+    "reflect-metadata": "^0.1.12 || ^0.2.0",
+    "rxjs": "^7.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@fily-cloud/platform-socket.io": {
+      "optional": true
+    }
+  }
+}
