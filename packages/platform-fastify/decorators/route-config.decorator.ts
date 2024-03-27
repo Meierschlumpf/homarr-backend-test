@@ -1,4 +1,4 @@
-import { SetMetadata } from '@nestjs/common';
+import { SetMetadata } from '@fily-cloud/common';
 import { FASTIFY_ROUTE_CONFIG_METADATA } from '../constants';
 
 /**

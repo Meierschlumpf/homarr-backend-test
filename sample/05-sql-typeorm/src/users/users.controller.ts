@@ -6,7 +6,7 @@ import {
   Param,
   Post,
   ParseIntPipe,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { User } from './user.entity';
 import { UsersService } from './users.service';

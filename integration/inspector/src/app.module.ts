@@ -1,4 +1,4 @@
-import { Module, Scope } from '@nestjs/common';
+import { Module, Scope } from '@fily-cloud/common';
 import { AppV1Controller } from './app-v1.controller';
 import { AppV2Controller } from './app-v2.controller';
 import { CatsModule } from './cats/cats.module';

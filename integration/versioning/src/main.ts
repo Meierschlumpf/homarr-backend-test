@@ -1,4 +1,4 @@
-import { VersioningType } from '@nestjs/common';
+import { VersioningType } from '@fily-cloud/common';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 

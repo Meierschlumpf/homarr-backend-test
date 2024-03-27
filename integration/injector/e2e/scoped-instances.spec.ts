@@ -1,6 +1,6 @@
 import { createContextId } from '@nestjs/core';
 import { InvalidClassScopeException } from '@nestjs/core/errors/exceptions/invalid-class-scope.exception';
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { ScopedController } from '../src/scoped/scoped.controller';
 import {

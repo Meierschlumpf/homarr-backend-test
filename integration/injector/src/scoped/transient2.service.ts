@@ -1,4 +1,4 @@
-import { Injectable, Logger, Scope } from '@nestjs/common';
+import { Injectable, Logger, Scope } from '@fily-cloud/common';
 
 @Injectable({ scope: Scope.TRANSIENT })
 export class Transient2Service {

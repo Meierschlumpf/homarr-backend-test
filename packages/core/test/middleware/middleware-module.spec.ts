@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { RouteInfoPathExtractor } from '@nestjs/core/middleware/route-info-path-extractor';
 import * as chai from 'chai';
 import { expect } from 'chai';

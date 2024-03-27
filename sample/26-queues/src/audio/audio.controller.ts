@@ -1,5 +1,5 @@
 import { InjectQueue } from '@nestjs/bull';
-import { Controller, Post } from '@nestjs/common';
+import { Controller, Post } from '@fily-cloud/common';
 import { Queue } from 'bull';
 
 @Controller('audio')

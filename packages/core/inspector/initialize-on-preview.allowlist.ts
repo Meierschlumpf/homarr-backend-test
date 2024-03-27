@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from '@fily-cloud/common';
 
 export class InitializeOnPreviewAllowlist {
   private static readonly allowlist = new WeakMap<Type, boolean>();

@@ -1,4 +1,4 @@
-import { Controller, Get, MessageEvent, Res, Sse } from '@nestjs/common';
+import { Controller, Get, MessageEvent, Res, Sse } from '@fily-cloud/common';
 import { Response } from 'express';
 import { readFileSync } from 'fs';
 import { join } from 'path';

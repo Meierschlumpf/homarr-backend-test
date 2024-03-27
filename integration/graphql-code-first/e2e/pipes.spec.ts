@@ -1,5 +1,5 @@
-import { INestApplication, ValidationPipe } from '@nestjs/common';
-import { Test } from '@nestjs/testing';
+import { INestApplication, ValidationPipe } from '@fily-cloud/common';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 

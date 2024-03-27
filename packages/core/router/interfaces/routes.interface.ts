@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from '@fily-cloud/common';
 
 export interface RouteTree {
   path: string;

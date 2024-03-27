@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { HelperService } from './helper/helper.service';
 
 @Injectable()

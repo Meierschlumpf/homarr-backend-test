@@ -1,4 +1,4 @@
-import { Logger } from '@nestjs/common';
+import { Logger } from '@fily-cloud/common';
 import { AssertionError, expect } from 'chai';
 import * as sinon from 'sinon';
 import { NO_MESSAGE_HANDLER } from '../../constants';

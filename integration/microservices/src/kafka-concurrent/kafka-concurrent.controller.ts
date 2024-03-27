@@ -6,7 +6,7 @@ import {
   OnModuleDestroy,
   OnModuleInit,
   Post,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { Client, ClientKafka, Transport } from '@nestjs/microservices';
 import { PartitionerArgs } from 'kafkajs';
 import { Observable } from 'rxjs';

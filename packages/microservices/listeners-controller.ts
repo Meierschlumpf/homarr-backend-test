@@ -1,6 +1,6 @@
-import { Injectable } from '@nestjs/common/interfaces';
-import { Controller } from '@nestjs/common/interfaces/controllers/controller.interface';
-import { isUndefined } from '@nestjs/common/utils/shared.utils';
+import { Injectable } from '@fily-cloud/common/interfaces';
+import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
+import { isUndefined } from '@fily-cloud/common/utils/shared.utils';
 import { ContextIdFactory } from '@nestjs/core/helpers/context-id-factory';
 import { ExecutionContextHost } from '@nestjs/core/helpers/execution-context-host';
 import { STATIC_CONTEXT } from '@nestjs/core/injector/constants';

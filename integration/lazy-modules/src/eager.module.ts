@@ -1,4 +1,4 @@
-import { Module, Injectable } from '@nestjs/common';
+import { Module, Injectable } from '@fily-cloud/common';
 import { GlobalService } from './global.module';
 
 @Injectable()

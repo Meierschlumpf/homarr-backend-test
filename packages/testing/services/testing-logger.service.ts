@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { ConsoleLogger } from '@nestjs/common';
+import { ConsoleLogger } from '@fily-cloud/common';
 
 /**
  * @publicApi

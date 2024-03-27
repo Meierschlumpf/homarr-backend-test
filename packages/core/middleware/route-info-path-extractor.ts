@@ -1,13 +1,13 @@
-import { VersioningType } from '@nestjs/common';
+import { VersioningType } from '@fily-cloud/common';
 import {
   RouteInfo,
   VersioningOptions,
   VersionValue,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import {
   addLeadingSlash,
   stripEndSlash,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { ApplicationConfig } from '../application-config';
 import { ExcludeRouteMetadata } from '../router/interfaces/exclude-route-metadata.interface';
 import { isRouteExcluded } from '../router/utils';

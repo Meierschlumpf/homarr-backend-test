@@ -1,10 +1,14 @@
-import { HttpServer, RequestMethod, VersioningOptions } from '@nestjs/common';
-import { RequestHandler, VersionValue } from '@nestjs/common/interfaces';
+import {
+  HttpServer,
+  RequestMethod,
+  VersioningOptions,
+} from '@fily-cloud/common';
+import { RequestHandler, VersionValue } from '@fily-cloud/common/interfaces';
 import {
   CorsOptions,
   CorsOptionsDelegate,
-} from '@nestjs/common/interfaces/external/cors-options.interface';
-import { NestApplicationOptions } from '@nestjs/common/interfaces/nest-application-options.interface';
+} from '@fily-cloud/common/interfaces/external/cors-options.interface';
+import { NestApplicationOptions } from '@fily-cloud/common/interfaces/nest-application-options.interface';
 
 /**
  * @publicApi

@@ -1,4 +1,4 @@
-import { isUndefined } from '@nestjs/common/utils/shared.utils';
+import { isUndefined } from '@fily-cloud/common/utils/shared.utils';
 import { KafkaHeaders } from '../enums/kafka-headers.enum';
 import { Deserializer, IncomingResponse } from '../interfaces';
 

@@ -3,7 +3,7 @@ import {
   PipeTransform,
   Injectable,
   ArgumentMetadata,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 
 @Injectable()
 export class ParseIntPipe implements PipeTransform<string> {

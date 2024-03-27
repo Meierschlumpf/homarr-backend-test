@@ -1,5 +1,5 @@
 import { NestExpressApplication } from '@nestjs/platform-express';
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';

@@ -7,8 +7,8 @@ import {
   Inject,
   Logger,
   Optional,
-} from '@nestjs/common';
-import { isObject } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common';
+import { isObject } from '@fily-cloud/common/utils/shared.utils';
 import { AbstractHttpAdapter } from '../adapters';
 import { MESSAGES } from '../constants';
 import { HttpAdapterHost } from '../helpers/http-adapter-host';

@@ -4,9 +4,9 @@ import {
   INestApplication,
   MiddlewareConsumer,
   Module,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { RouterModule } from '@nestjs/core';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 

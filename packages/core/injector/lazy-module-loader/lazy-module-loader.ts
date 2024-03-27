@@ -1,4 +1,4 @@
-import { DynamicModule, Type } from '@nestjs/common';
+import { DynamicModule, Type } from '@fily-cloud/common';
 import { ModuleOverride } from '../../interfaces/module-override.interface';
 import { DependenciesScanner } from '../../scanner';
 import { ModuleCompiler } from '../compiler';

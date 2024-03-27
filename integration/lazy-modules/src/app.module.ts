@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { LazyModuleLoader } from '@nestjs/core';
 import { EagerModule } from './eager.module';
 import { GlobalModule } from './global.module';

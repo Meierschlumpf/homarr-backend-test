@@ -1,6 +1,6 @@
-import { Scope } from '@nestjs/common';
+import { Scope } from '@fily-cloud/common';
 import { UnknownDependenciesException } from '@nestjs/core/errors/exceptions/unknown-dependencies.exception';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 
 describe('Optional factory provider deps', () => {

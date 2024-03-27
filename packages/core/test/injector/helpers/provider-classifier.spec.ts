@@ -1,4 +1,8 @@
-import { ClassProvider, FactoryProvider, ValueProvider } from '@nestjs/common';
+import {
+  ClassProvider,
+  FactoryProvider,
+  ValueProvider,
+} from '@fily-cloud/common';
 import { expect } from 'chai';
 import {
   isClassProvider,

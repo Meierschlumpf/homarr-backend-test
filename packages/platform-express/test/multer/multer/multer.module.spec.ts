@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { MULTER_MODULE_OPTIONS } from '../../../multer/files.constants';
 import { MulterModule } from '../../../multer/multer.module';
-import { FactoryProvider } from '@nestjs/common';
+import { FactoryProvider } from '@fily-cloud/common';
 
 describe('MulterModule', () => {
   describe('register', () => {

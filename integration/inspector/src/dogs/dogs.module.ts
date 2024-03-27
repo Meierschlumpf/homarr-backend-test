@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { DogsService } from './dogs.service';
 import { DogsController } from './dogs.controller';
 

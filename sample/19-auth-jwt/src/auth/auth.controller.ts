@@ -6,7 +6,7 @@ import {
   HttpStatus,
   Post,
   Request,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { AuthService } from './auth.service';
 import { Public } from './decorators/public.decorator';
 

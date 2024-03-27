@@ -3,7 +3,7 @@ import {
   Module,
   OnApplicationShutdown,
   Provider,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { ClientProxy, ClientProxyFactory } from '../client';
 import { Closeable } from '../interfaces';
 import {

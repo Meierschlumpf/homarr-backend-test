@@ -1,4 +1,4 @@
-import { Controller, MessageEvent, Sse } from '@nestjs/common';
+import { Controller, MessageEvent, Sse } from '@fily-cloud/common';
 import { interval, map, Observable } from 'rxjs';
 
 @Controller()

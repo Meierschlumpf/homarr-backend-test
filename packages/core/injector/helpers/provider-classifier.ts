@@ -3,8 +3,8 @@ import {
   FactoryProvider,
   Provider,
   ValueProvider,
-} from '@nestjs/common';
-import { isUndefined } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common';
+import { isUndefined } from '@fily-cloud/common/utils/shared.utils';
 
 export function isClassProvider<T = any>(
   provider: Provider,

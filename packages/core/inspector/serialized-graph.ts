@@ -1,4 +1,4 @@
-import { InjectionToken } from '@nestjs/common';
+import { InjectionToken } from '@fily-cloud/common';
 import { ApplicationConfig } from '../application-config';
 import { ExternalContextCreator } from '../helpers/external-context-creator';
 import { HttpAdapterHost } from '../helpers/http-adapter-host';

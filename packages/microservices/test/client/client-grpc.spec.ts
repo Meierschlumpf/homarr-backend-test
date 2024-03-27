@@ -1,4 +1,4 @@
-import { Logger } from '@nestjs/common';
+import { Logger } from '@fily-cloud/common';
 import { expect } from 'chai';
 import { join } from 'path';
 import { Observable, Subject } from 'rxjs';

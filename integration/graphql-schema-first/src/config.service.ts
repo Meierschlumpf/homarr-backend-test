@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { GqlModuleOptions, GqlOptionsFactory } from '@nestjs/graphql';
 import { join } from 'path';
 

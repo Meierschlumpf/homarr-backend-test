@@ -1,6 +1,6 @@
-import { InjectionToken } from '@nestjs/common/interfaces';
-import { Injectable } from '@nestjs/common/interfaces/injectable.interface';
-import { NestApplicationContextOptions } from '@nestjs/common/interfaces/nest-application-context-options.interface';
+import { InjectionToken } from '@fily-cloud/common/interfaces';
+import { Injectable } from '@fily-cloud/common/interfaces/injectable.interface';
+import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
 import { ApplicationConfig } from '@nestjs/core/application-config';
 import { GuardsConsumer } from '@nestjs/core/guards/guards-consumer';
 import { GuardsContextCreator } from '@nestjs/core/guards/guards-context-creator';

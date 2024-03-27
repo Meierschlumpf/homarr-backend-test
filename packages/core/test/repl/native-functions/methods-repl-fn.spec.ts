@@ -1,4 +1,4 @@
-import { clc } from '@nestjs/common/utils/cli-colors.util';
+import { clc } from '@fily-cloud/common/utils/cli-colors.util';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { NestContainer } from '../../../injector/container';

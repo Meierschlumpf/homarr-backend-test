@@ -1,4 +1,9 @@
-import { BadRequestException, Controller, Get, Header } from '@nestjs/common';
+import {
+  BadRequestException,
+  Controller,
+  Get,
+  Header,
+} from '@fily-cloud/common';
 
 @Controller()
 export class ErrorsController {

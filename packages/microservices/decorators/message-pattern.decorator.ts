@@ -3,7 +3,7 @@ import {
   isNumber,
   isNil,
   isSymbol,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 /* eslint-disable @typescript-eslint/no-use-before-define */
 import {
   PATTERN_HANDLER_METADATA,

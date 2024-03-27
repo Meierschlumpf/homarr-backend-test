@@ -1,16 +1,16 @@
-import { BadRequestException, NotFoundException } from '@nestjs/common';
+import { BadRequestException, NotFoundException } from '@fily-cloud/common';
 import {
   HOST_METADATA,
   MODULE_PATH,
   VERSION_METADATA,
-} from '@nestjs/common/constants';
+} from '@fily-cloud/common/constants';
 import {
   Controller,
   HttpServer,
   Type,
   VersionValue,
-} from '@nestjs/common/interfaces';
-import { Logger } from '@nestjs/common/services/logger.service';
+} from '@fily-cloud/common/interfaces';
+import { Logger } from '@fily-cloud/common/services/logger.service';
 import { ApplicationConfig } from '../application-config';
 import {
   CONTROLLER_MAPPING_MESSAGE,

@@ -1,5 +1,5 @@
-import { INestApplication, VersioningType } from '@nestjs/common';
-import { Test } from '@nestjs/testing';
+import { INestApplication, VersioningType } from '@fily-cloud/common';
+import { Test } from '@fily-cloud/testing';
 import { Request } from 'express';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';

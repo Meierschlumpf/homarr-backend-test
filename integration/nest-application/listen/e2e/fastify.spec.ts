@@ -1,6 +1,6 @@
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { FastifyAdapter } from '@nestjs/platform-fastify';
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { AppModule } from '../src/app.module';
 

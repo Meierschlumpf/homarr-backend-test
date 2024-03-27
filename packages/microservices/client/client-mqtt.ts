@@ -1,5 +1,5 @@
-import { Logger } from '@nestjs/common/services/logger.service';
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
+import { Logger } from '@fily-cloud/common/services/logger.service';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
 import { EmptyError, fromEvent, lastValueFrom, merge, Observable } from 'rxjs';
 import { first, map, share, tap } from 'rxjs/operators';
 import {

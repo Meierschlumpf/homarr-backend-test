@@ -1,6 +1,6 @@
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as request from 'supertest';
 import { AppController } from '../src/app.controller';

@@ -1,5 +1,5 @@
 import { Process, Processor } from '@nestjs/bull';
-import { Logger } from '@nestjs/common';
+import { Logger } from '@fily-cloud/common';
 import { Job } from 'bull';
 
 @Processor('audio')

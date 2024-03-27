@@ -1,4 +1,4 @@
-import { Inject, Injectable, Logger, Scope } from '@nestjs/common';
+import { Inject, Injectable, Logger, Scope } from '@fily-cloud/common';
 import { INQUIRER, REQUEST } from '@nestjs/core';
 
 @Injectable({ scope: Scope.TRANSIENT })

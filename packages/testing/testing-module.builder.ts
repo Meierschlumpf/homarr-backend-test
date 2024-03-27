@@ -1,5 +1,10 @@
-import { Logger, LoggerService, Module, ModuleMetadata } from '@nestjs/common';
-import { NestApplicationContextOptions } from '@nestjs/common/interfaces/nest-application-context-options.interface';
+import {
+  Logger,
+  LoggerService,
+  Module,
+  ModuleMetadata,
+} from '@fily-cloud/common';
+import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
 import { ApplicationConfig } from '@nestjs/core/application-config';
 import { NestContainer } from '@nestjs/core/injector/container';
 import { GraphInspector } from '@nestjs/core/inspector/graph-inspector';

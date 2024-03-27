@@ -1,4 +1,4 @@
-import { Injectable, Inject, forwardRef } from '@nestjs/common';
+import { Injectable, Inject, forwardRef } from '@fily-cloud/common';
 import { CircularService } from './circular.service';
 
 @Injectable()

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { Post } from '@prisma/client';
 import { NewPost, UpdatePost } from 'src/graphql.schema';
 import { PrismaService } from '../prisma/prisma.service';

@@ -1,4 +1,4 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { Post } from './models/post.model';
 import { PostsResolver } from './posts.resolver';
 import { PostsService } from './posts.service';

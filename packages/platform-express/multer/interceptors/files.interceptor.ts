@@ -6,8 +6,8 @@ import {
   NestInterceptor,
   Optional,
   Type,
-} from '@nestjs/common';
-import * as multer from 'multer';
+} from '@fily-cloud/common';
+import multer from 'multer';
 import { Observable } from 'rxjs';
 import { MULTER_MODULE_OPTIONS } from '../files.constants';
 import { MulterModuleOptions } from '../interfaces';

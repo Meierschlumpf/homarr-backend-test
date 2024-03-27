@@ -1,5 +1,5 @@
-import { InjectionToken, Scope } from '@nestjs/common';
-import { EnhancerSubtype } from '@nestjs/common/constants';
+import { InjectionToken, Scope } from '@fily-cloud/common';
+import { EnhancerSubtype } from '@fily-cloud/common/constants';
 
 export type ModuleNode = {
   metadata: {

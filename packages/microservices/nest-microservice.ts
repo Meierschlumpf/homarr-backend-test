@@ -5,9 +5,9 @@ import {
   NestInterceptor,
   PipeTransform,
   WebSocketAdapter,
-} from '@nestjs/common';
-import { NestMicroserviceOptions } from '@nestjs/common/interfaces/microservices/nest-microservice-options.interface';
-import { Logger } from '@nestjs/common/services/logger.service';
+} from '@fily-cloud/common';
+import { NestMicroserviceOptions } from '@fily-cloud/common/interfaces/microservices/nest-microservice-options.interface';
+import { Logger } from '@fily-cloud/common/services/logger.service';
 import { ApplicationConfig } from '@nestjs/core/application-config';
 import { MESSAGES } from '@nestjs/core/constants';
 import { optionalRequire } from '@nestjs/core/helpers/optional-require';
@@ -23,8 +23,8 @@ import { Server } from './server/server';
 import { ServerFactory } from './server/server-factory';
 
 const { SocketModule } = optionalRequire(
-  '@nestjs/websockets/socket-module',
-  () => require('@nestjs/websockets/socket-module'),
+  '@fily-cloud/websockets/socket-module',
+  () => require('@fily-cloud/websockets/socket-module'),
 );
 
 export class NestMicroservice

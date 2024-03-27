@@ -1,4 +1,4 @@
-import { NotFoundException } from '@nestjs/common';
+import { NotFoundException } from '@fily-cloud/common';
 import {
   Args,
   Context,

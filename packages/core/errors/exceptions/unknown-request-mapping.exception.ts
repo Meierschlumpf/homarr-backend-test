@@ -1,4 +1,4 @@
-import type { Type } from '@nestjs/common';
+import type { Type } from '@fily-cloud/common';
 import { RuntimeException } from './runtime.exception';
 import { UNKNOWN_REQUEST_MAPPING } from '../messages';
 

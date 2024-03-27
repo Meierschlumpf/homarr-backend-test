@@ -1,5 +1,5 @@
-import { DynamicModule, Module, Provider } from '@nestjs/common';
-import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
+import { DynamicModule, Module, Provider } from '@fily-cloud/common';
+import { randomStringGenerator } from '@fily-cloud/common/utils/random-string-generator.util';
 import { MULTER_MODULE_OPTIONS } from './files.constants';
 import {
   MulterModuleAsyncOptions,

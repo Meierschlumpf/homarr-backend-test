@@ -1,5 +1,5 @@
 import { ClientOptions, CustomClientOptions } from '../../interfaces';
-import { Type, Provider, ModuleMetadata } from '@nestjs/common/interfaces';
+import { Type, Provider, ModuleMetadata } from '@fily-cloud/common/interfaces';
 
 export type ClientProvider = ClientOptions | CustomClientOptions;
 

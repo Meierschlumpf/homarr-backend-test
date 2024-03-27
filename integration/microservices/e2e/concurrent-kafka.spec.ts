@@ -1,6 +1,6 @@
-import { INestApplication, Logger } from '@nestjs/common';
+import { INestApplication, Logger } from '@fily-cloud/common';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { Admin, ITopicMetadata, Kafka } from 'kafkajs';
 import * as request from 'supertest';
 import * as util from 'util';

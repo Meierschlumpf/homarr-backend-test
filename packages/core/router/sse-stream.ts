@@ -1,5 +1,5 @@
-import { MessageEvent } from '@nestjs/common/interfaces';
-import { isObject } from '@nestjs/common/utils/shared.utils';
+import { MessageEvent } from '@fily-cloud/common/interfaces';
+import { isObject } from '@fily-cloud/common/utils/shared.utils';
 import { IncomingMessage, OutgoingHttpHeaders } from 'http';
 import { Transform } from 'stream';
 

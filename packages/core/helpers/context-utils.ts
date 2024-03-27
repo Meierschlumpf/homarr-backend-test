@@ -1,15 +1,15 @@
-import { ParamData } from '@nestjs/common';
+import { ParamData } from '@fily-cloud/common';
 import {
   PARAMTYPES_METADATA,
   RESPONSE_PASSTHROUGH_METADATA,
-} from '@nestjs/common/constants';
+} from '@fily-cloud/common/constants';
 import {
   ContextType,
   Controller,
   PipeTransform,
   Type,
-} from '@nestjs/common/interfaces';
-import { isFunction } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/interfaces';
+import { isFunction } from '@fily-cloud/common/utils/shared.utils';
 import { ExecutionContextHost } from './execution-context-host';
 
 export interface ParamProperties<T = any, IExtractor extends Function = any> {

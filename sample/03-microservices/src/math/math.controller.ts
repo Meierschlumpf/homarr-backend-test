@@ -1,4 +1,4 @@
-import { Controller, Get, Inject } from '@nestjs/common';
+import { Controller, Get, Inject } from '@fily-cloud/common';
 import { ClientProxy, MessagePattern } from '@nestjs/microservices';
 import { Observable } from 'rxjs';
 import { MATH_SERVICE } from './math.constants';

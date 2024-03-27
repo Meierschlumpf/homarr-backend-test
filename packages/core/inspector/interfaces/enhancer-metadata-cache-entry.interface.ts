@@ -1,5 +1,5 @@
-import { Type } from '@nestjs/common';
-import { EnhancerSubtype } from '@nestjs/common/constants';
+import { Type } from '@fily-cloud/common';
+import { EnhancerSubtype } from '@fily-cloud/common/constants';
 import { InstanceWrapper } from '../../injector/instance-wrapper';
 
 export interface EnhancerMetadataCacheEntry {

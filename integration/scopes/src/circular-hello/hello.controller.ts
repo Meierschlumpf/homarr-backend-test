@@ -4,7 +4,7 @@ import {
   Param,
   UseGuards,
   UseInterceptors,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { Guard } from './guards/request-scoped.guard';
 import { HelloService } from './hello.service';
 import { Interceptor } from './interceptors/logging.interceptor';

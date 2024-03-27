@@ -1,6 +1,6 @@
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { ContextIdFactory } from '@nestjs/core';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as request from 'supertest';
 import { DurableContextIdStrategy } from '../src/durable/durable-context-id.strategy';

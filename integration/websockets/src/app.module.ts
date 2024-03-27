@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { ApplicationGateway } from './app.gateway';
 
 @Module({

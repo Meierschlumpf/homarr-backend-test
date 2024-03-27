@@ -1,4 +1,4 @@
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { NestFactory } from '@nestjs/core';
 import * as request from 'supertest';
 import { AsyncExistingApplicationModule } from '../src/async-options-existing.module';

@@ -1,4 +1,4 @@
-import { OnModuleDestroy } from '@nestjs/common';
+import { OnModuleDestroy } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { callModuleDestroyHook } from '../../hooks/on-module-destroy.hook';

@@ -1,7 +1,7 @@
-import { Logger } from '@nestjs/common/services/logger.service';
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
-import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
-import { isFunction } from '@nestjs/common/utils/shared.utils';
+import { Logger } from '@fily-cloud/common/services/logger.service';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
+import { randomStringGenerator } from '@fily-cloud/common/utils/random-string-generator.util';
+import { isFunction } from '@fily-cloud/common/utils/shared.utils';
 import { EventEmitter } from 'events';
 import {
   EmptyError,

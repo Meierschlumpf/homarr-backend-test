@@ -1,4 +1,4 @@
-import { Logger } from '@nestjs/common';
+import { Logger } from '@fily-cloud/common';
 import { ExternalContextCreator } from '../../helpers/external-context-creator';
 import { HttpAdapterHost } from '../../helpers/http-adapter-host';
 import { GraphInspector } from '../../inspector/graph-inspector';

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { CreateExternalSvcDto } from './dto/create-external-svc.dto';
 import { UpdateExternalSvcDto } from './dto/update-external-svc.dto';
 

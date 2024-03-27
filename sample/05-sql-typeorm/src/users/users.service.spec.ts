@@ -1,4 +1,4 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { User } from './user.entity';
 import { UsersService } from './users.service';

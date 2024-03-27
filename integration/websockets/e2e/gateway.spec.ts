@@ -1,5 +1,5 @@
-import { INestApplication } from '@nestjs/common';
-import { Test } from '@nestjs/testing';
+import { INestApplication } from '@fily-cloud/common';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { io } from 'socket.io-client';
 import { ApplicationGateway } from '../src/app.gateway';

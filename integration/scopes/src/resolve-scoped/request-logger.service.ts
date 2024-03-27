@@ -1,4 +1,4 @@
-import { Injectable, Scope } from '@nestjs/common';
+import { Injectable, Scope } from '@fily-cloud/common';
 import { LoggerService } from './logger.service';
 
 @Injectable({ scope: Scope.REQUEST })

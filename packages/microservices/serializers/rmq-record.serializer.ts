@@ -1,4 +1,4 @@
-import { isObject } from '@nestjs/common/utils/shared.utils';
+import { isObject } from '@fily-cloud/common/utils/shared.utils';
 import { ReadPacket } from '../interfaces';
 import { Serializer } from '../interfaces/serializer.interface';
 import { RmqRecord } from '../record-builders';

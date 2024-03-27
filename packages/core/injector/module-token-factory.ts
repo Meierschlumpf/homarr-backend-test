@@ -1,7 +1,7 @@
-import { DynamicModule, Logger } from '@nestjs/common';
-import { Type } from '@nestjs/common/interfaces/type.interface';
-import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
-import { isFunction, isSymbol } from '@nestjs/common/utils/shared.utils';
+import { DynamicModule, Logger } from '@fily-cloud/common';
+import { Type } from '@fily-cloud/common/interfaces/type.interface';
+import { randomStringGenerator } from '@fily-cloud/common/utils/random-string-generator.util';
+import { isFunction, isSymbol } from '@fily-cloud/common/utils/shared.utils';
 import { createHash } from 'crypto';
 import stringify from 'fast-safe-stringify';
 import { performance } from 'perf_hooks';

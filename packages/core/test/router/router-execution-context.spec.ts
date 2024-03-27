@@ -1,4 +1,4 @@
-import { ForbiddenException } from '@nestjs/common/exceptions/forbidden.exception';
+import { ForbiddenException } from '@fily-cloud/common/exceptions/forbidden.exception';
 import { expect } from 'chai';
 import { of } from 'rxjs';
 import * as sinon from 'sinon';

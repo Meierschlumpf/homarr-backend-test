@@ -1,4 +1,4 @@
-import { isNil } from '@nestjs/common/utils/shared.utils';
+import { isNil } from '@fily-cloud/common/utils/shared.utils';
 import { KafkaParserConfig } from '../interfaces';
 
 export class KafkaParser {

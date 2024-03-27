@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PhotoService } from './photo.service';
 import { PhotoController } from './photo.controller';

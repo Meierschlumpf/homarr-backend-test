@@ -1,6 +1,6 @@
-import { Logger, LoggerService } from '@nestjs/common';
-import { Controller } from '@nestjs/common/interfaces/controllers/controller.interface';
-import { Injectable } from '@nestjs/common/interfaces/injectable.interface';
+import { Logger, LoggerService } from '@fily-cloud/common';
+import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
+import { Injectable } from '@fily-cloud/common/interfaces/injectable.interface';
 import { MODULE_INIT_MESSAGE } from '../helpers/messages';
 import { GraphInspector } from '../inspector/graph-inspector';
 import { NestContainer } from './container';

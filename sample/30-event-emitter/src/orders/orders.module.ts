@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { OrderCreatedListener } from './listeners/order-created.listener';
 import { OrdersController } from './orders.controller';
 import { OrdersService } from './orders.service';

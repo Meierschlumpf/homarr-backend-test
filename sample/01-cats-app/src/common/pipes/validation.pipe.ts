@@ -4,7 +4,7 @@ import {
   Injectable,
   PipeTransform,
   Type,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { plainToClass } from 'class-transformer';
 import { validate } from 'class-validator';
 

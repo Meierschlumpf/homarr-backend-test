@@ -1,4 +1,4 @@
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { MultipleProvidersModule } from '../src/multiple-providers/multiple-providers.module';
 

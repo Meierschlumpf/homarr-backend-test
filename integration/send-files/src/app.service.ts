@@ -1,4 +1,4 @@
-import { Injectable, StreamableFile } from '@nestjs/common';
+import { Injectable, StreamableFile } from '@fily-cloud/common';
 import { randomBytes } from 'crypto';
 import { createReadStream, readFileSync } from 'fs';
 import { join } from 'path';

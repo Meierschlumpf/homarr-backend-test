@@ -1,15 +1,15 @@
-import { flatten } from '@nestjs/common/decorators/core/dependencies.decorator';
+import { flatten } from '@fily-cloud/common/decorators/core/dependencies.decorator';
 import {
   HttpServer,
   MiddlewareConsumer,
   Type,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import {
   MiddlewareConfigProxy,
   MiddlewareConfiguration,
   RouteInfo,
-} from '@nestjs/common/interfaces/middleware';
-import { stripEndSlash } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/interfaces/middleware';
+import { stripEndSlash } from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { RouteInfoPathExtractor } from './route-info-path-extractor';
 import { RoutesMapper } from './routes-mapper';

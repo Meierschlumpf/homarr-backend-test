@@ -1,9 +1,9 @@
-import { Injectable } from '@nestjs/common/interfaces/injectable.interface';
+import { Injectable } from '@fily-cloud/common/interfaces/injectable.interface';
 import {
   isConstructor,
   isFunction,
   isNil,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 
 export class MetadataScanner {
   private readonly cachedScannedPrototypes: Map<object, string[]> = new Map();

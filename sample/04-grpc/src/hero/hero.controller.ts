@@ -1,4 +1,10 @@
-import { Controller, Get, Inject, OnModuleInit, Param } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Inject,
+  OnModuleInit,
+  Param,
+} from '@fily-cloud/common';
 import {
   ClientGrpc,
   GrpcMethod,

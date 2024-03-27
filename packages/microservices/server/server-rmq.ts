@@ -2,7 +2,7 @@ import {
   isNil,
   isString,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import {
   CONNECTION_FAILED_MESSAGE,
   CONNECT_EVENT,

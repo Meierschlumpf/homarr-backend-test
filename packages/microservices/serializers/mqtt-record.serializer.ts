@@ -1,4 +1,4 @@
-import { isObject } from '@nestjs/common/utils/shared.utils';
+import { isObject } from '@fily-cloud/common/utils/shared.utils';
 import { ReadPacket, Serializer } from '../interfaces';
 import { MqttRecord } from '../record-builders';
 

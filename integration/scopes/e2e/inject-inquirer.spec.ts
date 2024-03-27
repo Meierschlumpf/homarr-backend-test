@@ -1,5 +1,5 @@
-import { INestApplication, Logger } from '@nestjs/common';
-import { Test } from '@nestjs/testing';
+import { INestApplication, Logger } from '@fily-cloud/common';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import * as request from 'supertest';

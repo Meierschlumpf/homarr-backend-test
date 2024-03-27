@@ -1,5 +1,5 @@
-import { Abstract, Scope, Type } from '@nestjs/common';
-import { GetOrResolveOptions } from '@nestjs/common/interfaces';
+import { Abstract, Scope, Type } from '@fily-cloud/common';
+import { GetOrResolveOptions } from '@fily-cloud/common/interfaces';
 import {
   InvalidClassScopeException,
   UnknownElementException,

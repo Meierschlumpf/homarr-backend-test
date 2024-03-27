@@ -1,8 +1,8 @@
-import { RequestMethod } from '@nestjs/common';
+import { RequestMethod } from '@fily-cloud/common';
 import {
   GlobalPrefixOptions,
   VersioningOptions,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import { expect } from 'chai';
 import { ApplicationConfig } from '../application-config';
 import { ExcludeRouteMetadata } from '../router/interfaces/exclude-route-metadata.interface';

@@ -1,4 +1,4 @@
-import { DynamicModule, ForwardReference, Provider } from '@nestjs/common';
+import { DynamicModule, ForwardReference, Provider } from '@fily-cloud/common';
 import {
   CATCH_WATERMARK,
   CONTROLLER_WATERMARK,
@@ -11,7 +11,7 @@ import {
   MODULE_METADATA,
   PIPES_METADATA,
   ROUTE_ARGS_METADATA,
-} from '@nestjs/common/constants';
+} from '@fily-cloud/common/constants';
 import {
   CanActivate,
   ClassProvider,
@@ -26,12 +26,12 @@ import {
   Scope,
   Type,
   ValueProvider,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import {
   isFunction,
   isNil,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { ApplicationConfig } from './application-config';
 import {

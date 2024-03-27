@@ -2,7 +2,7 @@ import {
   BadRequestException,
   HttpException,
   PayloadTooLargeException,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { multerExceptions, busboyExceptions } from './multer.constants';
 
 export function transformException(error: Error | undefined) {

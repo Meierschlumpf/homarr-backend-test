@@ -1,6 +1,6 @@
-import { PipeTransform, Type } from '@nestjs/common';
-import { assignMetadata } from '@nestjs/common/decorators/http/route-params.decorator';
-import { isNil, isString } from '@nestjs/common/utils/shared.utils';
+import { PipeTransform, Type } from '@fily-cloud/common';
+import { assignMetadata } from '@fily-cloud/common/decorators/http/route-params.decorator';
+import { isNil, isString } from '@fily-cloud/common/utils/shared.utils';
 import 'reflect-metadata';
 import { PARAM_ARGS_METADATA } from '../constants';
 import { WsParamtype } from '../enums/ws-paramtype.enum';

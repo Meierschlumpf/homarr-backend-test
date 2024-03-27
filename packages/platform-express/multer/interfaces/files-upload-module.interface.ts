@@ -1,4 +1,4 @@
-import { ModuleMetadata, Type } from '@nestjs/common/interfaces';
+import { ModuleMetadata, Type } from '@fily-cloud/common/interfaces';
 import { MulterOptions } from './multer-options.interface';
 
 export type MulterModuleOptions = MulterOptions;

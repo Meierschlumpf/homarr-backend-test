@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from '@fily-cloud/common';
 import { ConnectionOptions } from 'tls';
 import { Transport } from '../enums/transport.enum';
 import { ChannelOptions } from '../external/grpc-options.interface';

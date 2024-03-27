@@ -1,4 +1,4 @@
-import { Injectable, Scope } from '@nestjs/common';
+import { Injectable, Scope } from '@fily-cloud/common';
 import { Cat } from './interfaces/cat.interface';
 
 @Injectable({ scope: Scope.REQUEST })

@@ -1,4 +1,4 @@
-import { DynamicModule, Module } from '@nestjs/common';
+import { DynamicModule, Module } from '@fily-cloud/common';
 import { ConfigService } from './config.service';
 import { CONFIG_OPTIONS } from './constants';
 

@@ -1,4 +1,4 @@
-import { Controller, Scope } from '@nestjs/common';
+import { Controller, Scope } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { Injectable } from '../../../common';

@@ -1,5 +1,5 @@
-import { HttpException } from '@nestjs/common';
-import { isNil, isObject } from '@nestjs/common/utils/shared.utils';
+import { HttpException } from '@fily-cloud/common';
+import { isNil, isObject } from '@fily-cloud/common/utils/shared.utils';
 import { expect } from 'chai';
 import * as createHttpError from 'http-errors';
 import * as sinon from 'sinon';

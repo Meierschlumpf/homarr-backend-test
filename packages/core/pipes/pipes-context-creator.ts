@@ -1,6 +1,6 @@
-import { PIPES_METADATA } from '@nestjs/common/constants';
-import { Controller, PipeTransform, Type } from '@nestjs/common/interfaces';
-import { isEmpty, isFunction } from '@nestjs/common/utils/shared.utils';
+import { PIPES_METADATA } from '@fily-cloud/common/constants';
+import { Controller, PipeTransform, Type } from '@fily-cloud/common/interfaces';
+import { isEmpty, isFunction } from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { ApplicationConfig } from '../application-config';
 import { ContextCreator } from '../helpers/context-creator';

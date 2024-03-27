@@ -8,31 +8,31 @@ import {
   VersioningOptions,
   VersioningType,
   VERSION_NEUTRAL,
-} from '@nestjs/common';
-import { VersionValue } from '@nestjs/common/interfaces';
+} from '@fily-cloud/common';
+import { VersionValue } from '@fily-cloud/common/interfaces';
 import {
   CorsOptions,
   CorsOptionsDelegate,
-} from '@nestjs/common/interfaces/external/cors-options.interface';
-import { NestApplicationOptions } from '@nestjs/common/interfaces/nest-application-options.interface';
+} from '@fily-cloud/common/interfaces/external/cors-options.interface';
+import { NestApplicationOptions } from '@fily-cloud/common/interfaces/nest-application-options.interface';
 import {
   isFunction,
   isNil,
   isObject,
   isString,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { AbstractHttpAdapter } from '@nestjs/core/adapters/http-adapter';
 import { RouterMethodFactory } from '@nestjs/core/helpers/router-method-factory';
 import {
   json as bodyParserJson,
   urlencoded as bodyParserUrlencoded,
 } from 'body-parser';
-import * as bodyparser from 'body-parser';
-import * as cors from 'cors';
-import * as express from 'express';
-import * as http from 'http';
-import * as https from 'https';
+import bodyparser from 'body-parser';
+import cors from 'cors';
+import express from 'express';
+import http from 'http';
+import https from 'https';
 import { Duplex, pipeline } from 'stream';
 import { NestExpressBodyParserOptions } from '../interfaces/nest-express-body-parser-options.interface';
 import { NestExpressBodyParserType } from '../interfaces/nest-express-body-parser.interface';

@@ -1,4 +1,4 @@
-import { WebSocketGateway, SubscribeMessage } from '@nestjs/websockets';
+import { WebSocketGateway, SubscribeMessage } from '@fily-cloud/websockets';
 
 @WebSocketGateway(8080, {
   namespace: 'test',

@@ -1,5 +1,5 @@
-import { OnModuleInit } from '@nestjs/common';
-import { isFunction, isNil } from '@nestjs/common/utils/shared.utils';
+import { OnModuleInit } from '@fily-cloud/common';
+import { isFunction, isNil } from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import {
   getNonTransientInstances,

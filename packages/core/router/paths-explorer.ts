@@ -2,15 +2,15 @@ import {
   METHOD_METADATA,
   PATH_METADATA,
   VERSION_METADATA,
-} from '@nestjs/common/constants';
-import { RequestMethod } from '@nestjs/common/enums';
-import { Controller } from '@nestjs/common/interfaces/controllers/controller.interface';
-import { VersionValue } from '@nestjs/common/interfaces/version-options.interface';
+} from '@fily-cloud/common/constants';
+import { RequestMethod } from '@fily-cloud/common/enums';
+import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
+import { VersionValue } from '@fily-cloud/common/interfaces/version-options.interface';
 import {
   addLeadingSlash,
   isString,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { MetadataScanner } from '../metadata-scanner';
 import { RouterProxyCallback } from './router-proxy';
 

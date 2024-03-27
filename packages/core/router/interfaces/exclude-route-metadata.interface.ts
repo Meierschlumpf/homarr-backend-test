@@ -1,4 +1,4 @@
-import { RequestMethod } from '@nestjs/common';
+import { RequestMethod } from '@fily-cloud/common';
 
 export interface ExcludeRouteMetadata {
   /**

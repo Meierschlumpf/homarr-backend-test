@@ -1,7 +1,7 @@
 import { ApolloDriver } from '@nestjs/apollo';
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { GraphQLModule } from '@nestjs/graphql';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { join } from 'path';
 import * as request from 'supertest';

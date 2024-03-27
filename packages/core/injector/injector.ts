@@ -3,16 +3,16 @@ import {
   Logger,
   LoggerService,
   OptionalFactoryDependency,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import {
   OPTIONAL_DEPS_METADATA,
   OPTIONAL_PROPERTY_DEPS_METADATA,
   PARAMTYPES_METADATA,
   PROPERTY_DEPS_METADATA,
   SELF_DECLARED_DEPS_METADATA,
-} from '@nestjs/common/constants';
-import { Controller, Injectable, Type } from '@nestjs/common/interfaces';
-import { clc } from '@nestjs/common/utils/cli-colors.util';
+} from '@fily-cloud/common/constants';
+import { Controller, Injectable, Type } from '@fily-cloud/common/interfaces';
+import { clc } from '@fily-cloud/common/utils/cli-colors.util';
 import {
   isFunction,
   isNil,
@@ -20,7 +20,7 @@ import {
   isString,
   isSymbol,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { performance } from 'perf_hooks';
 import { CircularDependencyException } from '../errors/exceptions';

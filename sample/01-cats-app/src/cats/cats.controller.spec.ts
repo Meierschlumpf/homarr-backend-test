@@ -1,4 +1,4 @@
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { CatsController } from './cats.controller';
 import { CatsService } from './cats.service';
 import { Cat } from './interfaces/cat.interface';

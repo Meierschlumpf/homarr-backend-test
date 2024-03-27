@@ -1,4 +1,4 @@
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import * as chai from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
 import * as sinon from 'sinon';

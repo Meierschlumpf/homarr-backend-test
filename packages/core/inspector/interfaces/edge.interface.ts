@@ -1,4 +1,4 @@
-import { InjectionToken } from '@nestjs/common';
+import { InjectionToken } from '@fily-cloud/common';
 
 type CommonEdgeMetadata = {
   sourceModuleName: string;

@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { HostController } from './host.controller';
 import { HostService } from './host.service';
 import { UsersService } from './users/users.service';

@@ -1,5 +1,5 @@
-import { Paramtype } from '@nestjs/common';
-import { RouteParamtypes } from '@nestjs/common/enums/route-paramtypes.enum';
+import { Paramtype } from '@fily-cloud/common';
+import { RouteParamtypes } from '@fily-cloud/common/enums/route-paramtypes.enum';
 
 export class ParamsTokenFactory {
   public exchangeEnumForString(type: RouteParamtypes): Paramtype {

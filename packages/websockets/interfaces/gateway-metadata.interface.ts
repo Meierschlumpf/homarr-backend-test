@@ -1,4 +1,4 @@
-import { CorsOptions } from '@nestjs/common/interfaces/external/cors-options.interface';
+import { CorsOptions } from '@fily-cloud/common/interfaces/external/cors-options.interface';
 
 /**
  * External interface

@@ -3,7 +3,7 @@ import {
   ExecutionContext,
   Injectable,
   Scope,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { DurableService } from './durable.service';
 
 @Injectable({ scope: Scope.REQUEST, durable: true })

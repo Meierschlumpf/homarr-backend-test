@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { HelloModule } from './hello/hello.module';
 
 @Module({

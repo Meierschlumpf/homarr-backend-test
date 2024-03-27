@@ -1,4 +1,4 @@
-import { RouteParamtypes } from '@nestjs/common/enums/route-paramtypes.enum';
+import { RouteParamtypes } from '@fily-cloud/common/enums/route-paramtypes.enum';
 
 export interface IRouteParamsFactory {
   exchangeKeyForValue<

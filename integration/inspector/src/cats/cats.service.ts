@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { Cat } from './interfaces/cat.interface';
 
 @Injectable()

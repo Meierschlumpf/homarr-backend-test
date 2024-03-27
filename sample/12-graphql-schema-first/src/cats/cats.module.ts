@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { OwnersModule } from '../owners/owners.module';
 import { CatOwnerResolver } from './cat-owner.resolver';
 import { CatsResolver } from './cats.resolver';

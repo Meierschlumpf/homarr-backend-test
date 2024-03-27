@@ -1,5 +1,5 @@
-import { Test, TestingModule } from '@nestjs/testing';
-import { INestApplication } from '@nestjs/common';
+import { Test, TestingModule } from '@fily-cloud/testing';
+import { INestApplication } from '@fily-cloud/common';
 import * as request from 'supertest';
 import { UsersModule } from '../../src/users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';

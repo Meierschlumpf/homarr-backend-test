@@ -6,7 +6,7 @@ import {
   Bind,
   Dependencies,
   Param,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { CatsService } from './cats.service';
 
 @Controller('cats')

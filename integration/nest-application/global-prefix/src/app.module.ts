@@ -1,4 +1,4 @@
-import { MiddlewareConsumer, Module, RequestMethod } from '@nestjs/common';
+import { MiddlewareConsumer, Module, RequestMethod } from '@fily-cloud/common';
 import { AppController } from './app.controller';
 
 export const MIDDLEWARE_VALUE = 'middleware';

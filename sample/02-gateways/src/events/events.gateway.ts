@@ -4,7 +4,7 @@ import {
   WebSocketGateway,
   WebSocketServer,
   WsResponse,
-} from '@nestjs/websockets';
+} from '@fily-cloud/websockets';
 import { from, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Server } from 'socket.io';

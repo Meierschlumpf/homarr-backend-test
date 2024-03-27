@@ -3,8 +3,8 @@ import {
   Module,
   Post,
   VersioningType,
-} from '@nestjs/common';
-import { MODULE_PATH } from '@nestjs/common/constants';
+} from '@fily-cloud/common';
+import { MODULE_PATH } from '@fily-cloud/common/constants';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { Controller } from '../../../common/decorators/core/controller.decorator';

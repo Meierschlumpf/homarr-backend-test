@@ -1,5 +1,5 @@
-import { RequestMethod } from '@nestjs/common';
-import { addLeadingSlash } from '@nestjs/common/utils/shared.utils';
+import { RequestMethod } from '@fily-cloud/common';
+import { addLeadingSlash } from '@fily-cloud/common/utils/shared.utils';
 import { ExcludeRouteMetadata } from '../interfaces/exclude-route-metadata.interface';
 
 export const isRequestMethodAll = (method: RequestMethod) => {

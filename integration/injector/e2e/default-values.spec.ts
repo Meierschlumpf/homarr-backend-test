@@ -1,4 +1,4 @@
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { DefaultsModule } from '../src/defaults/defaults.module';
 import { DefaultsService } from '../src/defaults/defaults.service';

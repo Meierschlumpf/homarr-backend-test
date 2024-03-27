@@ -1,4 +1,4 @@
-import { ConsoleLogger } from '@nestjs/common';
+import { ConsoleLogger } from '@fily-cloud/common';
 import { NestApplication } from '../nest-application';
 import { RouterExplorer } from '../router/router-explorer';
 import { RoutesResolver } from '../router/routes-resolver';

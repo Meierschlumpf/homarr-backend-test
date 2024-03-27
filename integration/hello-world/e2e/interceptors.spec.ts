@@ -4,9 +4,9 @@ import {
   INestApplication,
   Injectable,
   NestInterceptor,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { APP_INTERCEPTOR } from '@nestjs/core';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import * as request from 'supertest';

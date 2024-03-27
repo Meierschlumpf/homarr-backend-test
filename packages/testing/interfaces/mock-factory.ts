@@ -1,3 +1,3 @@
-import { InjectionToken } from '@nestjs/common';
+import { InjectionToken } from '@fily-cloud/common';
 
 export type MockFactory = (token?: InjectionToken) => any;

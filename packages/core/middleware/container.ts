@@ -1,5 +1,5 @@
-import { InjectionToken, Type } from '@nestjs/common';
-import { MiddlewareConfiguration } from '@nestjs/common/interfaces/middleware/middleware-configuration.interface';
+import { InjectionToken, Type } from '@fily-cloud/common';
+import { MiddlewareConfiguration } from '@fily-cloud/common/interfaces/middleware/middleware-configuration.interface';
 import { getClassScope } from '../helpers/get-class-scope';
 import { isDurable } from '../helpers/is-durable';
 import { NestContainer } from '../injector/container';

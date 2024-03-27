@@ -1,6 +1,6 @@
-import { Logger } from '@nestjs/common/services/logger.service';
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
-import { isUndefined } from '@nestjs/common/utils/shared.utils';
+import { Logger } from '@fily-cloud/common/services/logger.service';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
+import { isUndefined } from '@fily-cloud/common/utils/shared.utils';
 import {
   KAFKA_DEFAULT_BROKER,
   KAFKA_DEFAULT_CLIENT,

@@ -4,13 +4,13 @@ import {
   VersioningOptions,
   VersioningType,
   flatten,
-} from '@nestjs/common';
-import { VersionValue } from '@nestjs/common/interfaces';
+} from '@fily-cloud/common';
+import { VersionValue } from '@fily-cloud/common/interfaces';
 import {
   addLeadingSlash,
   isUndefined,
   stripEndSlash,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { ApplicationConfig } from '../application-config';
 import { RoutePathMetadata } from './interfaces/route-path-metadata.interface';
 import { isRouteExcluded } from './utils';

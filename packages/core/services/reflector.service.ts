@@ -1,5 +1,5 @@
-import { CustomDecorator, SetMetadata, Type } from '@nestjs/common';
-import { isEmpty, isObject } from '@nestjs/common/utils/shared.utils';
+import { CustomDecorator, SetMetadata, Type } from '@fily-cloud/common';
+import { isEmpty, isObject } from '@fily-cloud/common/utils/shared.utils';
 import { uid } from 'uid';
 
 /**

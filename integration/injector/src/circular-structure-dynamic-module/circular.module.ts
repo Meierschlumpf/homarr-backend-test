@@ -1,4 +1,4 @@
-import { DynamicModule } from '@nestjs/common';
+import { DynamicModule } from '@fily-cloud/common';
 import { InputService } from './input.service';
 
 export class CircularModule {

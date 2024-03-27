@@ -5,7 +5,7 @@ import {
   ParamData,
   PipeTransform,
   RequestMethod,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import {
   CUSTOM_ROUTE_ARGS_METADATA,
   HEADERS_METADATA,
@@ -14,11 +14,11 @@ import {
   RENDER_METADATA,
   ROUTE_ARGS_METADATA,
   SSE_METADATA,
-} from '@nestjs/common/constants';
-import { RouteParamMetadata } from '@nestjs/common/decorators';
-import { RouteParamtypes } from '@nestjs/common/enums/route-paramtypes.enum';
-import { ContextType, Controller } from '@nestjs/common/interfaces';
-import { isEmpty, isString } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/constants';
+import { RouteParamMetadata } from '@fily-cloud/common/decorators';
+import { RouteParamtypes } from '@fily-cloud/common/enums/route-paramtypes.enum';
+import { ContextType, Controller } from '@fily-cloud/common/interfaces';
+import { isEmpty, isString } from '@fily-cloud/common/utils/shared.utils';
 import { IncomingMessage } from 'http';
 import { Observable } from 'rxjs';
 import {

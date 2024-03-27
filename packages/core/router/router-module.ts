@@ -1,6 +1,6 @@
-import { DynamicModule, Inject, Module, Type } from '@nestjs/common';
-import { MODULE_PATH } from '@nestjs/common/constants';
-import { normalizePath } from '@nestjs/common/utils/shared.utils';
+import { DynamicModule, Inject, Module, Type } from '@fily-cloud/common';
+import { MODULE_PATH } from '@fily-cloud/common/constants';
+import { normalizePath } from '@fily-cloud/common/utils/shared.utils';
 import { Module as ModuleClass } from '../injector/module';
 import { ModulesContainer } from '../injector/modules-container';
 import { Routes, RouteTree } from './interfaces';

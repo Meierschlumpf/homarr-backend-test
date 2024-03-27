@@ -1,4 +1,4 @@
-import { Logger } from '@nestjs/common';
+import { Logger } from '@fily-cloud/common';
 import { ExceptionHandler } from './exception-handler';
 
 const DEFAULT_TEARDOWN = () => process.exit(1);

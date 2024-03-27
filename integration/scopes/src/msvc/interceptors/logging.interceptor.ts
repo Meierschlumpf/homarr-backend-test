@@ -5,7 +5,7 @@ import {
   Injectable,
   NestInterceptor,
   Scope,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { Observable } from 'rxjs';
 
 @Injectable({ scope: Scope.REQUEST })

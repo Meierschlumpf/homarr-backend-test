@@ -1,6 +1,6 @@
-import { Scope } from '@nestjs/common';
+import { Scope } from '@fily-cloud/common';
 import { ModuleRef } from '@nestjs/core';
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { ScopedModule, STATIC_FACTORY } from '../src/scoped/scoped.module';
 import { ScopedService } from '../src/scoped/scoped.service';

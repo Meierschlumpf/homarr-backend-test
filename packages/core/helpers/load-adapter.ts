@@ -1,4 +1,4 @@
-import { Logger } from '@nestjs/common';
+import { Logger } from '@fily-cloud/common';
 
 const MISSING_REQUIRED_DEPENDENCY = (
   defaultPlatform: string,

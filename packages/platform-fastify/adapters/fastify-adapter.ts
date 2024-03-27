@@ -7,15 +7,15 @@ import {
   VERSION_NEUTRAL,
   VersioningOptions,
   VersioningType,
-} from '@nestjs/common';
-import { VersionValue } from '@nestjs/common/interfaces';
+} from '@fily-cloud/common';
+import { VersionValue } from '@fily-cloud/common/interfaces';
 import {
   CorsOptions,
   CorsOptionsDelegate,
-} from '@nestjs/common/interfaces/external/cors-options.interface';
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
-import { isString, isUndefined } from '@nestjs/common/utils/shared.utils';
-import { AbstractHttpAdapter } from '@nestjs/core/adapters/http-adapter';
+} from '@fily-cloud/common/interfaces/external/cors-options.interface';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
+import { isString, isUndefined } from '@fily-cloud/common/utils/shared.utils';
+import { AbstractHttpAdapter } from '@fily-cloud/core/adapters/http-adapter';
 import {
   FastifyBaseLogger,
   FastifyBodyParser,
@@ -34,17 +34,17 @@ import {
   RequestGenericInterface,
   fastify,
 } from 'fastify';
-import * as Reply from 'fastify/lib/reply';
+import Reply from 'fastify/lib/reply';
 import { kRouteContext } from 'fastify/lib/symbols';
 import { RouteShorthandMethod } from 'fastify/types/route';
-import * as http2 from 'http2';
-import * as https from 'https';
+import http2 from 'http2';
+import https from 'https';
 import {
   InjectOptions,
   Chain as LightMyRequestChain,
   Response as LightMyRequestResponse,
 } from 'light-my-request';
-import * as pathToRegexp from 'path-to-regexp';
+import pathToRegexp from 'path-to-regexp';
 // `querystring` is used internally in fastify for registering urlencoded body parser.
 import { parse as querystringParse } from 'querystring';
 import {

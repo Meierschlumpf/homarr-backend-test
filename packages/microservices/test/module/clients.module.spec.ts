@@ -3,7 +3,7 @@ import {
   FactoryProvider,
   Injectable,
   ValueProvider,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { ClientProxyFactory } from '../../client';

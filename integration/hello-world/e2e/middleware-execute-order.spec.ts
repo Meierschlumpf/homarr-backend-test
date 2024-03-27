@@ -1,5 +1,9 @@
-import { INestApplication, MiddlewareConsumer, Module } from '@nestjs/common';
-import { Test } from '@nestjs/testing';
+import {
+  INestApplication,
+  MiddlewareConsumer,
+  Module,
+} from '@fily-cloud/common';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 
 const RETURN_VALUE_A = 'test_A';

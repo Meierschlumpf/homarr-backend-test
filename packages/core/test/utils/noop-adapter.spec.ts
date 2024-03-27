@@ -1,5 +1,5 @@
-import { RequestMethod, VersioningOptions } from '@nestjs/common';
-import { VersionValue } from '@nestjs/common/interfaces';
+import { RequestMethod, VersioningOptions } from '@fily-cloud/common';
+import { VersionValue } from '@fily-cloud/common/interfaces';
 import { AbstractHttpAdapter } from '../../adapters';
 
 export class NoopHttpAdapter extends AbstractHttpAdapter {

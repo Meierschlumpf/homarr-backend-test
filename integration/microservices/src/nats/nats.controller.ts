@@ -1,4 +1,11 @@
-import { Body, Controller, Get, HttpCode, Post, Query } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  HttpCode,
+  Post,
+  Query,
+} from '@fily-cloud/common';
 import {
   ClientProxy,
   ClientProxyFactory,

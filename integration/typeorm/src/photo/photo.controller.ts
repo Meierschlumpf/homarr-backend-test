@@ -1,4 +1,4 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Post } from '@fily-cloud/common';
 import { Photo } from './photo.entity';
 import { PhotoService } from './photo.service';
 

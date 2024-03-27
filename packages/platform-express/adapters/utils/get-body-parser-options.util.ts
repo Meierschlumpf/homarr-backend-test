@@ -1,4 +1,4 @@
-import type { RawBodyRequest } from '@nestjs/common';
+import type { RawBodyRequest } from '@fily-cloud/common';
 import type { IncomingMessage, ServerResponse } from 'http';
 import type { NestExpressBodyParserOptions } from '../../interfaces';
 

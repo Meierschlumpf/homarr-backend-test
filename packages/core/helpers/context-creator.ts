@@ -1,4 +1,4 @@
-import { Controller } from '@nestjs/common/interfaces';
+import { Controller } from '@fily-cloud/common/interfaces';
 import { STATIC_CONTEXT } from '../injector/constants';
 import { ContextId, InstanceWrapper } from '../injector/instance-wrapper';
 

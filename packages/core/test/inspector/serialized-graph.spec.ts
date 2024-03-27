@@ -1,4 +1,4 @@
-import { Scope } from '@nestjs/common';
+import { Scope } from '@fily-cloud/common';
 import { expect } from 'chai';
 import { ApplicationConfig } from '../../application-config';
 import { Edge } from '../../inspector/interfaces/edge.interface';

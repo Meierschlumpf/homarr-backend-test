@@ -1,5 +1,5 @@
 import { NestExpressApplication } from '@nestjs/platform-express';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { OptionsUrlencoded } from 'body-parser';
 import { expect } from 'chai';
 import * as request from 'supertest';

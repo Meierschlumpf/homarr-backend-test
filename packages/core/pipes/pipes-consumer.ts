@@ -1,5 +1,5 @@
-import { RouteParamtypes } from '@nestjs/common/enums/route-paramtypes.enum';
-import { ArgumentMetadata, PipeTransform } from '@nestjs/common/interfaces';
+import { RouteParamtypes } from '@fily-cloud/common/enums/route-paramtypes.enum';
+import { ArgumentMetadata, PipeTransform } from '@fily-cloud/common/interfaces';
 import { ParamsTokenFactory } from './params-token-factory';
 
 export class PipesConsumer {

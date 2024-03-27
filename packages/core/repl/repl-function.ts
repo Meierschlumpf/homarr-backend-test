@@ -1,5 +1,5 @@
-import { Logger } from '@nestjs/common';
-import { clc } from '@nestjs/common/utils/cli-colors.util';
+import { Logger } from '@fily-cloud/common';
+import { clc } from '@fily-cloud/common/utils/cli-colors.util';
 import { ReplContext } from './repl-context';
 import type { ReplFnDefinition } from './repl.interfaces';
 

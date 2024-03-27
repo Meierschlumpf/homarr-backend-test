@@ -1,4 +1,4 @@
-import { DynamicModule, Module, Scope } from '@nestjs/common';
+import { DynamicModule, Module, Scope } from '@fily-cloud/common';
 import { CatsRequestScopedService } from './cats-request-scoped.service';
 import { CatsResolvers } from './cats.resolvers';
 import { CatsService } from './cats.service';

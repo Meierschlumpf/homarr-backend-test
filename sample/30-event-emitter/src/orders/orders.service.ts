@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { EventEmitter2 } from '@nestjs/event-emitter';
 import { Order } from '../orders/entities/order.entity';
 import { CreateOrderDto } from './dto/create-order.dto';

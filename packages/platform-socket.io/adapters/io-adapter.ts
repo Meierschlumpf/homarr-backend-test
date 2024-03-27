@@ -2,8 +2,8 @@ import { isFunction, isNil } from '@nestjs/common/utils/shared.utils';
 import {
   AbstractWsAdapter,
   MessageMappingProperties,
-} from '@nestjs/websockets';
-import { DISCONNECT_EVENT } from '@nestjs/websockets/constants';
+} from '@fily-cloud/websockets';
+import { DISCONNECT_EVENT } from '@fily-cloud/websockets/constants';
 import { fromEvent, Observable } from 'rxjs';
 import { filter, first, map, mergeMap, share, takeUntil } from 'rxjs/operators';
 import { Server, ServerOptions, Socket } from 'socket.io';

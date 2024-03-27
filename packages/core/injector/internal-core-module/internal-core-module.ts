@@ -1,9 +1,9 @@
-import { DynamicModule, Global, Module } from '@nestjs/common';
+import { DynamicModule, Global, Module } from '@fily-cloud/common';
 import {
   ExistingProvider,
   FactoryProvider,
   ValueProvider,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import { requestProvider } from '../../router/request/request-providers';
 import { Reflector } from '../../services';
 import { inquirerProvider } from '../inquirer/inquirer-providers';

@@ -1,4 +1,4 @@
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import * as Sinon from 'sinon';
 import {
   Injectable,
@@ -7,7 +7,7 @@ import {
   OnModuleDestroy,
   OnModuleInit,
   BeforeApplicationShutdown,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 
 @Injectable()
 class TestInjectable

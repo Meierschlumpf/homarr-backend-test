@@ -1,16 +1,16 @@
-import { HttpServer } from '@nestjs/common';
-import { PATH_METADATA } from '@nestjs/common/constants';
-import { RequestMethod, VersioningType } from '@nestjs/common/enums';
-import { InternalServerErrorException } from '@nestjs/common/exceptions';
-import { Controller } from '@nestjs/common/interfaces/controllers/controller.interface';
-import { Type } from '@nestjs/common/interfaces/type.interface';
-import { VersionValue } from '@nestjs/common/interfaces/version-options.interface';
-import { Logger } from '@nestjs/common/services/logger.service';
+import { HttpServer } from '@fily-cloud/common';
+import { PATH_METADATA } from '@fily-cloud/common/constants';
+import { RequestMethod, VersioningType } from '@fily-cloud/common/enums';
+import { InternalServerErrorException } from '@fily-cloud/common/exceptions';
+import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
+import { Type } from '@fily-cloud/common/interfaces/type.interface';
+import { VersionValue } from '@fily-cloud/common/interfaces/version-options.interface';
+import { Logger } from '@fily-cloud/common/services/logger.service';
 import {
   addLeadingSlash,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
-import * as pathToRegexp from 'path-to-regexp';
+} from '@fily-cloud/common/utils/shared.utils';
+import pathToRegexp from 'path-to-regexp';
 import { ApplicationConfig } from '../application-config';
 import { UnknownRequestMappingException } from '../errors/exceptions/unknown-request-mapping.exception';
 import { GuardsConsumer, GuardsContextCreator } from '../guards';

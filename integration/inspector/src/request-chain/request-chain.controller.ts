@@ -1,4 +1,4 @@
-import { Controller, Get, UseInterceptors } from '@nestjs/common';
+import { Controller, Get, UseInterceptors } from '@fily-cloud/common';
 import { LoggingInterceptor } from './interceptors/logging.interceptor';
 import { RequestChainService } from './request-chain.service';
 

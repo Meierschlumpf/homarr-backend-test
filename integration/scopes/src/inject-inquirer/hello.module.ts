@@ -1,4 +1,4 @@
-import { Module, Logger } from '@nestjs/common';
+import { Module, Logger } from '@fily-cloud/common';
 import { HelloController } from './hello.controller';
 import { HelloRequestService } from './hello-request/hello-request.service';
 import { HelloTransientService } from './hello-transient/hello-transient.service';

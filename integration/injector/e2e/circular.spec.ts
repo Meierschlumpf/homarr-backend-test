@@ -1,4 +1,4 @@
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { CircularModule } from '../src/circular/circular.module';
 import { CircularService } from '../src/circular/circular.service';

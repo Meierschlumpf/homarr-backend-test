@@ -4,10 +4,10 @@
     "outDir": ".",
     "rootDir": ".",
     "paths": {
-      "@nestjs/common": ["../common"],
-      "@nestjs/common/*": ["../common/*"],
-      "@nestjs/websockets": ["../websockets"],
-      "@nestjs/websockets/*": ["../websockets/*"]
+      "@fily-cloud/common": ["../common"],
+      "@fily-cloud/common/*": ["../common/*"],
+      "@fily-cloud/websockets": ["../websockets"],
+      "@fily-cloud/websockets/*": ["../websockets/*"]
     }
   },
   "exclude": ["node_modules", "dist", "test/**/*", "*.spec.ts"],

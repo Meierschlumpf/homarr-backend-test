@@ -1,4 +1,4 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { DiscoveryService } from '@nestjs/core';
 import { expect } from 'chai';
 import { AppModule } from '../src/app.module';

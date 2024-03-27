@@ -1,5 +1,5 @@
-import type { Type, InjectionToken } from '@nestjs/common';
-import { clc } from '@nestjs/common/utils/cli-colors.util';
+import type { Type, InjectionToken } from '@fily-cloud/common';
+import { clc } from '@fily-cloud/common/utils/cli-colors.util';
 import { ReplFunction } from '../repl-function';
 import type { ModuleDebugEntry } from '../repl-context';
 import type { ReplFnDefinition } from '../repl.interfaces';

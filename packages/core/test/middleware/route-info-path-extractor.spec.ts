@@ -1,4 +1,4 @@
-import { RequestMethod, VersioningType } from '@nestjs/common';
+import { RequestMethod, VersioningType } from '@fily-cloud/common';
 import { ApplicationConfig } from '@nestjs/core';
 import { mapToExcludeRoute } from '@nestjs/core/middleware/utils';
 import { expect } from 'chai';

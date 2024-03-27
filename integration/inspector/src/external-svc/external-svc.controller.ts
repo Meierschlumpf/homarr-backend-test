@@ -1,4 +1,4 @@
-import { Controller } from '@nestjs/common';
+import { Controller } from '@fily-cloud/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
 import { ExternalSvcService } from './external-svc.service';
 import { CreateExternalSvcDto } from './dto/create-external-svc.dto';

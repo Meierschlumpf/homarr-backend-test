@@ -1,7 +1,7 @@
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 
-import { Controller, Injectable, Module } from '@nestjs/common';
+import { Controller, Injectable, Module } from '@fily-cloud/common';
 
 class B {}
 

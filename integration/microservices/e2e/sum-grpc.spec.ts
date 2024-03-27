@@ -1,8 +1,8 @@
 import * as GRPC from '@grpc/grpc-js';
 import * as ProtoLoader from '@grpc/proto-loader';
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { fail } from 'assert';
 import { expect } from 'chai';
 import { join } from 'path';

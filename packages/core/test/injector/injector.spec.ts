@@ -1,5 +1,5 @@
-import { Optional } from '@nestjs/common';
-import { PARAMTYPES_METADATA } from '@nestjs/common/constants';
+import { Optional } from '@fily-cloud/common';
+import { PARAMTYPES_METADATA } from '@fily-cloud/common/constants';
 import * as chai from 'chai';
 import { expect } from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';

@@ -1,4 +1,4 @@
-import { DynamicModule, Inject, Module, Provider } from '@nestjs/common';
+import { DynamicModule, Inject, Module, Provider } from '@fily-cloud/common';
 import { HelloController } from './hello.controller';
 import { HelloService } from './hello.service';
 import { TestController } from './test.controller';

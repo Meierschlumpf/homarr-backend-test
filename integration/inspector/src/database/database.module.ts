@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { DatabaseService } from './database.service';
 import { DatabaseController } from './database.controller';
 

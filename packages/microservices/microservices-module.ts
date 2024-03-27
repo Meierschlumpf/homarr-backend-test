@@ -1,5 +1,5 @@
-import { Controller } from '@nestjs/common/interfaces/controllers/controller.interface';
-import { NestApplicationContextOptions } from '@nestjs/common/interfaces/nest-application-context-options.interface';
+import { Controller } from '@fily-cloud/common/interfaces/controllers/controller.interface';
+import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
 import { ApplicationConfig } from '@nestjs/core/application-config';
 import { RuntimeException } from '@nestjs/core/errors/exceptions/runtime.exception';
 import { GuardsConsumer, GuardsContextCreator } from '@nestjs/core/guards';

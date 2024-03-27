@@ -1,5 +1,5 @@
-import type { ForwardReference, Type, DynamicModule } from '@nestjs/common';
-import { isNil, isSymbol } from '@nestjs/common/utils/shared.utils';
+import type { ForwardReference, Type, DynamicModule } from '@fily-cloud/common';
+import { isNil, isSymbol } from '@fily-cloud/common/utils/shared.utils';
 import {
   InjectorDependency,
   InjectorDependencyContext,

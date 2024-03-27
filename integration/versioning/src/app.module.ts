@@ -1,4 +1,4 @@
-import { MiddlewareConsumer, Module } from '@nestjs/common';
+import { MiddlewareConsumer, Module } from '@fily-cloud/common';
 import { AppV1Controller } from './app-v1.controller';
 import { AppV2Controller } from './app-v2.controller';
 import { MiddlewareController } from './middleware.controller';

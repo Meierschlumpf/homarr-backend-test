@@ -1,6 +1,10 @@
-import { CUSTOM_ROUTE_ARGS_METADATA } from '@nestjs/common/constants';
-import { Body, createParamDecorator, Request } from '@nestjs/common/decorators';
-import { RouteParamtypes } from '@nestjs/common/enums/route-paramtypes.enum';
+import { CUSTOM_ROUTE_ARGS_METADATA } from '@fily-cloud/common/constants';
+import {
+  Body,
+  createParamDecorator,
+  Request,
+} from '@fily-cloud/common/decorators';
+import { RouteParamtypes } from '@fily-cloud/common/enums/route-paramtypes.enum';
 import { expect } from 'chai';
 import { ROUTE_ARGS_METADATA } from '../../../common/constants';
 import { ContextUtils } from '../../helpers/context-utils';

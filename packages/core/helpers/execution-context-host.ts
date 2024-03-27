@@ -1,11 +1,11 @@
-import { ExecutionContext } from '@nestjs/common';
-import { Type } from '@nestjs/common/interfaces';
+import { ExecutionContext } from '@fily-cloud/common';
+import { Type } from '@fily-cloud/common/interfaces';
 import {
   ContextType,
   HttpArgumentsHost,
   RpcArgumentsHost,
   WsArgumentsHost,
-} from '@nestjs/common/interfaces/features/arguments-host.interface';
+} from '@fily-cloud/common/interfaces/features/arguments-host.interface';
 
 export class ExecutionContextHost implements ExecutionContext {
   private contextType = 'http';

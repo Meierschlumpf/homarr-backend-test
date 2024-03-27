@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs/platform-ws",
+  "name": "@fily-cloud/platform-ws",
   "version": "10.3.6",
   "description": "Nest - modern, fast, powerful node.js web framework (@platform-ws)",
   "author": "Kamil Mysliwiec",
@@ -22,8 +22,8 @@
     "ws": "8.16.0"
   },
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0",
-    "@nestjs/websockets": "^10.0.0",
+    "@fily-cloud/common": "^10.0.0",
+    "@fily-cloud/websockets": "^10.0.0",
     "rxjs": "^7.1.0"
   }
 }

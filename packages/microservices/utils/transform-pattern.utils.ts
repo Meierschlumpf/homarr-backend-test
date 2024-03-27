@@ -2,7 +2,7 @@ import {
   isObject,
   isString,
   isNumber,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { MsPattern } from '../interfaces';
 
 /**

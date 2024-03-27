@@ -6,8 +6,8 @@ import {
   Module,
   Post,
   RequestMethod,
-} from '@nestjs/common';
-import { Test } from '@nestjs/testing';
+} from '@fily-cloud/common';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 

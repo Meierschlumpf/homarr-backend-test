@@ -1,4 +1,4 @@
-import { BeforeApplicationShutdown } from '@nestjs/common';
+import { BeforeApplicationShutdown } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { callBeforeAppShutdownHook } from '../../hooks/before-app-shutdown.hook';

@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post } from '@fily-cloud/common';
 import {
   ApiBearerAuth,
   ApiOperation,

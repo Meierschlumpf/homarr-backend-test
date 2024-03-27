@@ -1,7 +1,7 @@
 /* Temporarily disabled due to various regressions
 
 import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { ApplicationModule } from '../src/app.module';
 

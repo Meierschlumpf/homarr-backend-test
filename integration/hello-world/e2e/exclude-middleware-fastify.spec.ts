@@ -6,12 +6,12 @@ import {
   Module,
   Post,
   RequestMethod,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import {
   FastifyAdapter,
   NestFastifyApplication,
 } from '@nestjs/platform-fastify';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 

@@ -1,5 +1,5 @@
-import { BeforeApplicationShutdown } from '@nestjs/common';
-import { isFunction, isNil } from '@nestjs/common/utils/shared.utils';
+import { BeforeApplicationShutdown } from '@fily-cloud/common';
+import { isFunction, isNil } from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import {
   getNonTransientInstances,

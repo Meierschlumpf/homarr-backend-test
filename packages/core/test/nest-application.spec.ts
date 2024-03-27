@@ -1,4 +1,4 @@
-import { RequestMethod } from '@nestjs/common';
+import { RequestMethod } from '@fily-cloud/common';
 import { expect } from 'chai';
 import { ApplicationConfig } from '../application-config';
 import { NestContainer } from '../injector/container';

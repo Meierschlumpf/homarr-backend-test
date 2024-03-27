@@ -1,4 +1,4 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { reduce } from 'rxjs/operators';
 import { EventsGateway } from './events.gateway';
 

@@ -1,5 +1,5 @@
-import { Injectable, Module, OnApplicationShutdown } from '@nestjs/common';
-import { Test } from '@nestjs/testing';
+import { Injectable, Module, OnApplicationShutdown } from '@fily-cloud/common';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as Sinon from 'sinon';
 

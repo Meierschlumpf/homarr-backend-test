@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs/core",
+  "name": "@fily-cloud/core",
   "version": "10.3.6",
   "description": "Nest - modern, fast, powerful node.js web framework (@core)",
   "author": "Kamil Mysliwiec",
@@ -36,24 +36,24 @@
     "uid": "2.0.2"
   },
   "devDependencies": {
-    "@nestjs/common": "10.3.6"
+    "@fily-cloud/common": "10.3.6"
   },
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0",
-    "@nestjs/microservices": "^10.0.0",
-    "@nestjs/platform-express": "^10.0.0",
-    "@nestjs/websockets": "^10.0.0",
+    "@fily-cloud/common": "^10.0.0",
+    "@fily-cloud/microservices": "^10.0.0",
+    "@fily-cloud/platform-express": "^10.0.0",
+    "@fily-cloud/websockets": "^10.0.0",
     "reflect-metadata": "^0.1.12 || ^0.2.0",
     "rxjs": "^7.1.0"
   },
   "peerDependenciesMeta": {
-    "@nestjs/websockets": {
+    "@fily-cloud/websockets": {
       "optional": true
     },
-    "@nestjs/microservices": {
+    "@fily-cloud/microservices": {
       "optional": true
     },
-    "@nestjs/platform-express": {
+    "@fily-cloud/platform-express": {
       "optional": true
     }
   }

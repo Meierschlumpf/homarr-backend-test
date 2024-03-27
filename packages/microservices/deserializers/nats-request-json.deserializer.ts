@@ -1,4 +1,4 @@
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
 import { NatsCodec } from '../external/nats-client.interface';
 import { IncomingEvent, IncomingRequest } from '../interfaces';
 import { IncomingRequestDeserializer } from './incoming-request.deserializer';

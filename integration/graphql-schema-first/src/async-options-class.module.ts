@@ -1,5 +1,5 @@
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { GqlOptionsFactory, GraphQLModule } from '@nestjs/graphql';
 import { join } from 'path';
 import { CatsModule } from './cats/cats.module';

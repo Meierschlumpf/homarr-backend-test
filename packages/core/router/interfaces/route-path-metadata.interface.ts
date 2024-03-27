@@ -1,5 +1,5 @@
-import { VersioningOptions } from '@nestjs/common';
-import { VersionValue } from '@nestjs/common/interfaces';
+import { VersioningOptions } from '@fily-cloud/common';
+import { VersionValue } from '@fily-cloud/common/interfaces';
 
 export interface RoutePathMetadata {
   /**

@@ -1,4 +1,4 @@
-import { Module, Scope } from '@nestjs/common';
+import { Module, Scope } from '@fily-cloud/common';
 import { ScopedController } from './scoped.controller';
 import { ScopedService } from './scoped.service';
 import { TransientService } from './transient.service';

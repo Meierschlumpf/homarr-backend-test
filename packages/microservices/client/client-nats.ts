@@ -1,6 +1,6 @@
-import { Logger } from '@nestjs/common/services/logger.service';
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
-import { isObject } from '@nestjs/common/utils/shared.utils';
+import { Logger } from '@fily-cloud/common/services/logger.service';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
+import { isObject } from '@fily-cloud/common/utils/shared.utils';
 import { NATS_DEFAULT_URL } from '../constants';
 import { NatsResponseJSONDeserializer } from '../deserializers/nats-response-json.deserializer';
 import { EmptyResponseException } from '../errors/empty-response.exception';

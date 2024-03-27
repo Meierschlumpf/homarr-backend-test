@@ -3,7 +3,7 @@ import {
   ExecutionContext,
   Injectable,
   NestInterceptor,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { Observable } from 'rxjs';
 import { timeout } from 'rxjs/operators';
 

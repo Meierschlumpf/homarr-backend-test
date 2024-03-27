@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { APP_GUARD } from '@nestjs/core';
 import { DurableController } from './durable.controller';
 import { DurableGuard } from './durable.guard';

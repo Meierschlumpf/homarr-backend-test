@@ -1,4 +1,4 @@
-import { CallHandler, ExecutionContext, Injectable } from '@nestjs/common';
+import { CallHandler, ExecutionContext, Injectable } from '@fily-cloud/common';
 
 @Injectable()
 export class RequestInterceptor {

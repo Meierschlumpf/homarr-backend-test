@@ -2,7 +2,7 @@ import {
   DynamicModule,
   ForwardReference,
   Type,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import { ModuleTokenFactory } from './module-token-factory';
 
 export interface ModuleFactory {

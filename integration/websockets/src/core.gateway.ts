@@ -3,7 +3,7 @@ import {
   MessageBody,
   SubscribeMessage,
   WebSocketGateway,
-} from '@nestjs/websockets';
+} from '@fily-cloud/websockets';
 
 @WebSocketGateway(8090)
 export class CoreGateway {

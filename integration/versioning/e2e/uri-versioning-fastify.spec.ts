@@ -1,9 +1,9 @@
-import { INestApplication, VersioningType } from '@nestjs/common';
+import { INestApplication, VersioningType } from '@fily-cloud/common';
 import {
   FastifyAdapter,
   NestFastifyApplication,
 } from '@nestjs/platform-fastify';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 

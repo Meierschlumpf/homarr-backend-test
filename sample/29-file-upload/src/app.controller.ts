@@ -6,7 +6,7 @@ import {
   Post,
   UploadedFile,
   UseInterceptors,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { Express } from 'express';
 import { AppService } from './app.service';

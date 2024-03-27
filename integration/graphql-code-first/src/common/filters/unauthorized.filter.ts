@@ -1,4 +1,8 @@
-import { ArgumentsHost, Catch, UnauthorizedException } from '@nestjs/common';
+import {
+  ArgumentsHost,
+  Catch,
+  UnauthorizedException,
+} from '@fily-cloud/common';
 import { GqlExceptionFilter } from '@nestjs/graphql';
 
 @Catch(UnauthorizedException)

@@ -2,9 +2,9 @@ import {
   INestApplication,
   Injectable,
   UnauthorizedException,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { APP_GUARD } from '@nestjs/core';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 

@@ -1,4 +1,4 @@
-import { Injectable, NestMiddleware } from '@nestjs/common';
+import { Injectable, NestMiddleware } from '@fily-cloud/common';
 
 @Injectable()
 export class LoggerMiddleware implements NestMiddleware {

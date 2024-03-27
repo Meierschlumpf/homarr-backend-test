@@ -1,4 +1,4 @@
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { IncomingMessage, request, RequestOptions } from 'http';
 import { URL } from 'url';
 

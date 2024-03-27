@@ -1,4 +1,4 @@
-import type { Type } from '@nestjs/common';
+import type { Type } from '@fily-cloud/common';
 import { ReplFunction } from '../repl-function';
 import type { ReplFnDefinition } from '../repl.interfaces';
 

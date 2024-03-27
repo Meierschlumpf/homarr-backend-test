@@ -2,18 +2,18 @@ import {
   MODULE_PATH,
   PATH_METADATA,
   VERSION_METADATA,
-} from '@nestjs/common/constants';
+} from '@fily-cloud/common/constants';
 import {
   RouteInfo,
   Type,
   VERSION_NEUTRAL,
   VersionValue,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import {
   addLeadingSlash,
   isString,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { ApplicationConfig } from '../application-config';
 import { NestContainer } from '../injector/container';
 import { Module } from '../injector/module';

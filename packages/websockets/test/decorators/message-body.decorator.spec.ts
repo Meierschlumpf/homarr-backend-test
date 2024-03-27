@@ -1,4 +1,4 @@
-import { ValidationPipe } from '@nestjs/common';
+import { ValidationPipe } from '@fily-cloud/common';
 import { expect } from 'chai';
 import { PARAM_ARGS_METADATA } from '../../constants';
 import { MessageBody } from '../../decorators';

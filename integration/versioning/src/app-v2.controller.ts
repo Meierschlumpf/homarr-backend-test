@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get } from '@fily-cloud/common';
 
 @Controller({
   version: '2',

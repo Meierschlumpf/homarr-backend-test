@@ -3,7 +3,7 @@ import {
   Controller,
   Get,
   UseInterceptors,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { RoleEntity } from './entities/role.entity';
 import { UserEntity } from './entities/user.entity';
 

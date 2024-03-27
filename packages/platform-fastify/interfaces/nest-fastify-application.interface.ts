@@ -1,4 +1,4 @@
-import { INestApplication, HttpServer } from '@nestjs/common';
+import { INestApplication, HttpServer } from '@fily-cloud/common';
 import {
   FastifyBodyParser,
   FastifyInstance,

@@ -1,4 +1,4 @@
-import { IntrospectionResult, Scope, Type } from '@nestjs/common';
+import { IntrospectionResult, Scope, Type } from '@fily-cloud/common';
 import { getClassScope } from '../helpers/get-class-scope';
 import { isDurable } from '../helpers/is-durable';
 import { AbstractInstanceResolver } from './abstract-instance-resolver';

@@ -1,4 +1,4 @@
-import { FactoryProvider } from '@nestjs/common';
+import { FactoryProvider } from '@fily-cloud/common';
 
 export const LOGGER_PROVIDER = 'LOGGER_PROVIDER';
 export const loggerProvider: FactoryProvider = {

@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs/platform-fastify",
+  "name": "@fily-cloud/platform-fastify",
   "version": "10.3.6",
   "description": "Nest - modern, fast, powerful node.js web framework (@platform-fastify)",
   "author": "Kamil Mysliwiec",
@@ -29,8 +29,8 @@
   "peerDependencies": {
     "@fastify/static": "^6.0.0 || ^7.0.0",
     "@fastify/view": "^7.0.0 || ^8.0.0",
-    "@nestjs/common": "^10.0.0",
-    "@nestjs/core": "^10.0.0"
+    "@fily-cloud/common": "^10.0.0",
+    "@fily-cloud/core": "^10.0.0"
   },
   "peerDependenciesMeta": {
     "@fastify/static": {

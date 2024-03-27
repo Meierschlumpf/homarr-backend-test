@@ -1,4 +1,4 @@
-import { Controller, Get, StreamableFile } from '@nestjs/common';
+import { Controller, Get, StreamableFile } from '@fily-cloud/common';
 import { Observable } from 'rxjs';
 import { AppService } from './app.service';
 import { NonFile } from './non-file';

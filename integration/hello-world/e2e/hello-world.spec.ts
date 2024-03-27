@@ -1,6 +1,6 @@
 import * as request from 'supertest';
-import { Test } from '@nestjs/testing';
-import { INestApplication } from '@nestjs/common';
+import { Test } from '@fily-cloud/testing';
+import { INestApplication } from '@fily-cloud/common';
 import { AppModule } from '../src/app.module';
 
 describe('Hello world (default adapter)', () => {

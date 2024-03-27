@@ -1,4 +1,4 @@
-import { Injectable, Scope } from '@nestjs/common';
+import { Injectable, Scope } from '@fily-cloud/common';
 import { TransientService } from './transient.service';
 
 @Injectable({ scope: Scope.TRANSIENT })

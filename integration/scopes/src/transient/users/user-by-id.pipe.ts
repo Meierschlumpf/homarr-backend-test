@@ -3,7 +3,7 @@ import {
   Injectable,
   PipeTransform,
   Scope,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 
 @Injectable({ scope: Scope.TRANSIENT })
 export class UserByIdPipe implements PipeTransform<string> {

@@ -1,4 +1,4 @@
-import { Module, Injectable, Inject, forwardRef } from '@nestjs/common';
+import { Module, Injectable, Inject, forwardRef } from '@fily-cloud/common';
 
 @Injectable()
 class ServiceInjectingItself {

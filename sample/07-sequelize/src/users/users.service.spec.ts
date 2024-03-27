@@ -1,4 +1,4 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { User } from './models/user.model';
 import { UsersService } from './users.service';
 import { getModelToken } from '@nestjs/sequelize';

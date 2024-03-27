@@ -1,4 +1,4 @@
-import { ModuleMetadata } from '@nestjs/common/interfaces/modules/module-metadata.interface';
+import { ModuleMetadata } from '@fily-cloud/common/interfaces/modules/module-metadata.interface';
 import { MetadataScanner } from '@nestjs/core/metadata-scanner';
 import { TestingModuleBuilder } from './testing-module.builder';
 

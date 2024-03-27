@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { HelperModule } from './helper/helper.module';
 import { RequestChainController } from './request-chain.controller';
 import { RequestChainService } from './request-chain.service';

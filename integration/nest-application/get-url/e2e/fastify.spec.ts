@@ -1,5 +1,5 @@
 import { FastifyAdapter } from '@nestjs/platform-fastify';
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { AppModule } from '../src/app.module';
 import { randomPort } from './utils';

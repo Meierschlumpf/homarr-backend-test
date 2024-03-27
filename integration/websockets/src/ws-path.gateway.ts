@@ -1,4 +1,4 @@
-import { SubscribeMessage, WebSocketGateway } from '@nestjs/websockets';
+import { SubscribeMessage, WebSocketGateway } from '@fily-cloud/websockets';
 
 @WebSocketGateway({
   path: '/ws-path',

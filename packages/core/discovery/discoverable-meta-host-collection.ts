@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from '@fily-cloud/common';
 import { InstanceWrapper } from '../injector/instance-wrapper';
 import { ModulesContainer } from '../injector/modules-container';
 

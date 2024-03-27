@@ -1,4 +1,4 @@
-import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
+import { MiddlewareConsumer, Module, NestModule } from '@fily-cloud/common';
 import { APP_INTERCEPTOR } from '@nestjs/core';
 import { CatsController } from '../cats/cats.controller';
 import { LoggerMiddleware } from '../common/middleware/logger.middleware';

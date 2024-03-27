@@ -1,5 +1,5 @@
-import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
-import { isNil } from '@nestjs/common/utils/shared.utils';
+import { randomStringGenerator } from '@fily-cloud/common/utils/random-string-generator.util';
+import { isNil } from '@fily-cloud/common/utils/shared.utils';
 import {
   connectable,
   defer,

@@ -2,7 +2,7 @@ import {
   ApolloFederationDriver,
   ApolloFederationDriverConfig,
 } from '@nestjs/apollo';
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { PostsResolver } from './posts.resolver';
 import { PostsService } from './posts.service';

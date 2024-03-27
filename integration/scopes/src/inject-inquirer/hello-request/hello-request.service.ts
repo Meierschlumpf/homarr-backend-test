@@ -1,4 +1,4 @@
-import { Inject, Injectable, Scope } from '@nestjs/common';
+import { Inject, Injectable, Scope } from '@fily-cloud/common';
 import { INQUIRER } from '@nestjs/core';
 import { RequestLogger } from './request-logger.service';
 

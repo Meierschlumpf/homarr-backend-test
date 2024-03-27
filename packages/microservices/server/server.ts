@@ -1,5 +1,8 @@
-import { Logger, LoggerService } from '@nestjs/common/services/logger.service';
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
+import {
+  Logger,
+  LoggerService,
+} from '@fily-cloud/common/services/logger.service';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
 import {
   connectable,
   EMPTY,

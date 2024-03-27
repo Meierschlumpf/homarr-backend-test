@@ -1,12 +1,12 @@
-import { HttpServer, InjectionToken, Logger } from '@nestjs/common';
-import { RequestMethod } from '@nestjs/common/enums/request-method.enum';
+import { HttpServer, InjectionToken, Logger } from '@fily-cloud/common';
+import { RequestMethod } from '@fily-cloud/common/enums/request-method.enum';
 import {
   MiddlewareConfiguration,
   NestMiddleware,
   RouteInfo,
-} from '@nestjs/common/interfaces/middleware';
-import { NestApplicationContextOptions } from '@nestjs/common/interfaces/nest-application-context-options.interface';
-import { isUndefined } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/interfaces/middleware';
+import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
+import { isUndefined } from '@fily-cloud/common/utils/shared.utils';
 import { ApplicationConfig } from '../application-config';
 import { InvalidMiddlewareException } from '../errors/exceptions/invalid-middleware.exception';
 import { RuntimeException } from '../errors/exceptions/runtime.exception';

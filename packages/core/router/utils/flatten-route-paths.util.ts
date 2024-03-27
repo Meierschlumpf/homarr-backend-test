@@ -1,4 +1,4 @@
-import { normalizePath, isString } from '@nestjs/common/utils/shared.utils';
+import { normalizePath, isString } from '@fily-cloud/common/utils/shared.utils';
 import { Routes } from '../interfaces/routes.interface';
 
 export function flattenRoutePaths(routes: Routes) {

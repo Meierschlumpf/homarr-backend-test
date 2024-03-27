@@ -1,5 +1,5 @@
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
-import { isObject } from '@nestjs/common/utils/shared.utils';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
+import { isObject } from '@fily-cloud/common/utils/shared.utils';
 import { NatsCodec } from '../external/nats-client.interface';
 import { ReadPacket } from '../interfaces';
 import { Serializer } from '../interfaces/serializer.interface';

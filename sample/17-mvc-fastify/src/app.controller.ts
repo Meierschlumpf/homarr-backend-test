@@ -1,4 +1,4 @@
-import { Get, Controller, Render } from '@nestjs/common';
+import { Get, Controller, Render } from '@fily-cloud/common';
 
 @Controller()
 export class AppController {

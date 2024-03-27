@@ -1,4 +1,8 @@
-import { RequestMethod, VersioningType, VERSION_NEUTRAL } from '@nestjs/common';
+import {
+  RequestMethod,
+  VersioningType,
+  VERSION_NEUTRAL,
+} from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as pathToRegexp from 'path-to-regexp';
 import * as sinon from 'sinon';

@@ -1,4 +1,4 @@
-import { Controller } from '@nestjs/common';
+import { Controller } from '@fily-cloud/common';
 
 /**
  * Defines the GrpcService. The service can inject dependencies through constructor.

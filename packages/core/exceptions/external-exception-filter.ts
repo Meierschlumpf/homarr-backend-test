@@ -1,4 +1,4 @@
-import { ArgumentsHost, HttpException, Logger } from '@nestjs/common';
+import { ArgumentsHost, HttpException, Logger } from '@fily-cloud/common';
 
 export class ExternalExceptionFilter<T = any, R = any> {
   private static readonly logger = new Logger('ExceptionsHandler');

@@ -5,9 +5,9 @@ import {
   Global,
   Injectable,
   Module,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { LazyModuleLoader } from '@nestjs/core';
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 
 import { AModule, AProvider } from './circular-dependency/a.module';

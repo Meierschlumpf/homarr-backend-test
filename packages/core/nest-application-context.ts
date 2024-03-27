@@ -4,15 +4,15 @@ import {
   LoggerService,
   LogLevel,
   ShutdownSignal,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import {
   Abstract,
   DynamicModule,
   GetOrResolveOptions,
   Type,
-} from '@nestjs/common/interfaces';
-import { NestApplicationContextOptions } from '@nestjs/common/interfaces/nest-application-context-options.interface';
-import { isEmpty } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/interfaces';
+import { NestApplicationContextOptions } from '@fily-cloud/common/interfaces/nest-application-context-options.interface';
+import { isEmpty } from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { MESSAGES } from './constants';
 import { UnknownModuleException } from './errors/exceptions';

@@ -1,5 +1,5 @@
 import { CacheInterceptor } from '@nestjs/cache-manager';
-import { ExecutionContext, Injectable } from '@nestjs/common';
+import { ExecutionContext, Injectable } from '@fily-cloud/common';
 
 @Injectable()
 export class HttpCacheInterceptor extends CacheInterceptor {

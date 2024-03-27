@@ -1,4 +1,4 @@
-import { OnApplicationBootstrap } from '@nestjs/common';
+import { OnApplicationBootstrap } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { callModuleBootstrapHook } from '../../hooks/on-app-bootstrap.hook';

@@ -1,4 +1,4 @@
-import { Controller, Post, RawBodyRequest, Req } from '@nestjs/common';
+import { Controller, Post, RawBodyRequest, Req } from '@fily-cloud/common';
 import type { FastifyRequest } from 'fastify';
 
 @Controller()

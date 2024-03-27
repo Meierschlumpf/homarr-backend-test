@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { TransientLogger } from './transient-logger.service';
 
 @Injectable()

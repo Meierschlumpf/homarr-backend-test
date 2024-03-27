@@ -2,7 +2,7 @@ import {
   BadRequestException,
   HttpException,
   PayloadTooLargeException,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { expect } from 'chai';
 import {
   multerExceptions,

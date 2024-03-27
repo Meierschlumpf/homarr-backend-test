@@ -1,4 +1,4 @@
-import { Catch, Injectable } from '@nestjs/common';
+import { Catch, Injectable } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { GUARDS_METADATA } from '../../common/constants';

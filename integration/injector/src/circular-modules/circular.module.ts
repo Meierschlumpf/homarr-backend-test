@@ -1,4 +1,4 @@
-import { Module, forwardRef } from '@nestjs/common';
+import { Module, forwardRef } from '@fily-cloud/common';
 import { CircularService } from './circular.service';
 import { InputModule } from './input.module';
 

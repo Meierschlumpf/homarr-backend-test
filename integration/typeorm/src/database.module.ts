@@ -1,4 +1,4 @@
-import { DynamicModule, Module } from '@nestjs/common';
+import { DynamicModule, Module } from '@fily-cloud/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Photo } from './photo/photo.entity';
 

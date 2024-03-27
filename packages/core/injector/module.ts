@@ -1,7 +1,7 @@
 import {
   EnhancerSubtype,
   ENTRY_PROVIDER_WATERMARK,
-} from '@nestjs/common/constants';
+} from '@fily-cloud/common/constants';
 import {
   ClassProvider,
   Controller,
@@ -14,8 +14,8 @@ import {
   Provider,
   Type,
   ValueProvider,
-} from '@nestjs/common/interfaces';
-import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
+} from '@fily-cloud/common/interfaces';
+import { randomStringGenerator } from '@fily-cloud/common/utils/random-string-generator.util';
 import {
   isFunction,
   isNil,
@@ -23,7 +23,7 @@ import {
   isString,
   isSymbol,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { ApplicationConfig } from '../application-config';
 import {

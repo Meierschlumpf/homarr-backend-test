@@ -1,4 +1,4 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { ConfigService } from './config.service';
 import { CONFIG_OPTIONS } from './constants';
 

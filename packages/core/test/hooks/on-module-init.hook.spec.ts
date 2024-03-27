@@ -1,4 +1,4 @@
-import { OnModuleInit } from '@nestjs/common';
+import { OnModuleInit } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { callModuleInitHook } from '../../hooks/on-module-init.hook';

@@ -1,4 +1,4 @@
-import { Scope } from '@nestjs/common';
+import { Scope } from '@fily-cloud/common';
 import { ApplicationConfig } from '@nestjs/core';
 import { ExecutionContextHost } from '@nestjs/core/helpers/execution-context-host';
 import { NestContainer } from '@nestjs/core/injector/container';

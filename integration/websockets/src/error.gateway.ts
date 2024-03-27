@@ -2,7 +2,7 @@ import {
   SubscribeMessage,
   WebSocketGateway,
   WsException,
-} from '@nestjs/websockets';
+} from '@fily-cloud/websockets';
 import { throwError } from 'rxjs';
 
 @WebSocketGateway(8080)

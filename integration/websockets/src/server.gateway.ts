@@ -1,5 +1,5 @@
-import { UseInterceptors } from '@nestjs/common';
-import { SubscribeMessage, WebSocketGateway } from '@nestjs/websockets';
+import { UseInterceptors } from '@fily-cloud/common';
+import { SubscribeMessage, WebSocketGateway } from '@fily-cloud/websockets';
 import { RequestInterceptor } from './request.interceptor';
 
 @WebSocketGateway()

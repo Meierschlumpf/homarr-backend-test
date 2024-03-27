@@ -2,7 +2,7 @@ import type {
   DynamicModule,
   INestApplicationContext,
   Type,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { ReplFunction } from '../repl-function';
 import type { ReplFnDefinition } from '../repl.interfaces';
 

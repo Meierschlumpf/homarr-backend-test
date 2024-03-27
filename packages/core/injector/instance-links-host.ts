@@ -1,5 +1,5 @@
-import { InjectionToken } from '@nestjs/common';
-import { isFunction } from '@nestjs/common/utils/shared.utils';
+import { InjectionToken } from '@fily-cloud/common';
+import { isFunction } from '@fily-cloud/common/utils/shared.utils';
 import { UnknownElementException } from '../errors/exceptions/unknown-element.exception';
 import { NestContainer } from './container';
 import { InstanceWrapper } from './instance-wrapper';

@@ -9,9 +9,9 @@ import {
   VersioningOptions,
   VersioningType,
   VERSION_NEUTRAL,
-} from '@nestjs/common';
-import { CustomVersioningOptions } from '@nestjs/common/interfaces';
-import { Test } from '@nestjs/testing';
+} from '@fily-cloud/common';
+import { CustomVersioningOptions } from '@fily-cloud/common/interfaces';
+import { Test } from '@fily-cloud/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 

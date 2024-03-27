@@ -4,7 +4,7 @@ import {
   isPlainObject,
   isString,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { Serializer } from '../interfaces/serializer.interface';
 
 export interface KafkaRequest<T = any> {

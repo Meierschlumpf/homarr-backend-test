@@ -1,5 +1,9 @@
-import { BadRequestException } from '@nestjs/common';
-import { PipeTransform, Injectable, ArgumentMetadata } from '@nestjs/common';
+import { BadRequestException } from '@fily-cloud/common';
+import {
+  PipeTransform,
+  Injectable,
+  ArgumentMetadata,
+} from '@fily-cloud/common';
 
 @Injectable()
 export class ParseIntPipe implements PipeTransform<string> {

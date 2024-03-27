@@ -10,23 +10,23 @@ import {
   VersioningOptions,
   VersioningType,
   WebSocketAdapter,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import {
   GlobalPrefixOptions,
   NestApplicationOptions,
-} from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/interfaces';
 import {
   CorsOptions,
   CorsOptionsDelegate,
-} from '@nestjs/common/interfaces/external/cors-options.interface';
-import { Logger } from '@nestjs/common/services/logger.service';
-import { loadPackage } from '@nestjs/common/utils/load-package.util';
+} from '@fily-cloud/common/interfaces/external/cors-options.interface';
+import { Logger } from '@fily-cloud/common/services/logger.service';
+import { loadPackage } from '@fily-cloud/common/utils/load-package.util';
 import {
   addLeadingSlash,
   isFunction,
   isObject,
   isString,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { platform } from 'os';
 import { AbstractHttpAdapter } from './adapters';
@@ -44,8 +44,8 @@ import { Resolver } from './router/interfaces/resolver.interface';
 import { RoutesResolver } from './router/routes-resolver';
 
 const { SocketModule } = optionalRequire(
-  '@nestjs/websockets/socket-module',
-  () => require('@nestjs/websockets/socket-module'),
+  '@fily-cloud/websockets/socket-module',
+  () => require('@fily-cloud/websockets/socket-module'),
 );
 const { MicroservicesModule } = optionalRequire(
   '@nestjs/microservices/microservices-module',

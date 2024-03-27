@@ -1,4 +1,4 @@
-import { ClassProvider, FactoryProvider } from '@nestjs/common';
+import { ClassProvider, FactoryProvider } from '@fily-cloud/common';
 import { expect } from 'chai';
 import { ExternalContextCreator } from '../../../helpers/external-context-creator';
 import { HttpAdapterHost } from '../../../helpers/http-adapter-host';

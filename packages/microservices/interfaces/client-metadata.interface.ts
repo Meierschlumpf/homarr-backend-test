@@ -1,4 +1,4 @@
-import { Type } from '@nestjs/common';
+import { Type } from '@fily-cloud/common';
 import { ClientProxy } from '../client';
 import { TcpSocket } from '../helpers';
 import { Transport } from '../enums/transport.enum';

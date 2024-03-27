@@ -1,4 +1,4 @@
-import { isObject, isString } from '@nestjs/common/utils/shared.utils';
+import { isObject, isString } from '@fily-cloud/common/utils/shared.utils';
 
 /**
  * @publicApi

@@ -1,4 +1,4 @@
-import { OnApplicationShutdown } from '@nestjs/common';
+import { OnApplicationShutdown } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { callAppShutdownHook } from '../../hooks/on-app-shutdown.hook';

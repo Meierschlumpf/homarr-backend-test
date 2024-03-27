@@ -1,4 +1,4 @@
-import { INestApplication, HttpServer } from '@nestjs/common';
+import { INestApplication, HttpServer } from '@fily-cloud/common';
 import type { Server as CoreHttpServer } from 'http';
 import type { Server as CoreHttpsServer } from 'https';
 import type { Express } from 'express';

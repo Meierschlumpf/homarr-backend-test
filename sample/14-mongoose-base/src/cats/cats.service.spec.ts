@@ -1,4 +1,4 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { Model } from 'mongoose';
 import { CatsService } from './cats.service';
 import { Cat } from './interfaces/cat.interface';

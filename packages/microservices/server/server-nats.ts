@@ -1,4 +1,4 @@
-import { isUndefined, isObject } from '@nestjs/common/utils/shared.utils';
+import { isUndefined, isObject } from '@fily-cloud/common/utils/shared.utils';
 import { NATS_DEFAULT_URL, NO_MESSAGE_HANDLER } from '../constants';
 import { NatsContext } from '../ctx-host/nats.context';
 import { NatsRequestJSONDeserializer } from '../deserializers/nats-request-json.deserializer';

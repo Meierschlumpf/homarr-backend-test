@@ -1,8 +1,8 @@
-import { RequestMethod } from '@nestjs/common/enums/request-method.enum';
+import { RequestMethod } from '@fily-cloud/common/enums/request-method.enum';
 import {
   VersionValue,
   VERSION_NEUTRAL,
-} from '@nestjs/common/interfaces/version-options.interface';
+} from '@fily-cloud/common/interfaces/version-options.interface';
 
 export const MODULE_INIT_MESSAGE = (
   text: TemplateStringsArray,

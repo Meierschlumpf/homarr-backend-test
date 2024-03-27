@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 
 // This should be a real class/interface representing a user entity
 export type User = any;

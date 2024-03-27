@@ -1,5 +1,5 @@
 import { CacheInterceptor } from '@nestjs/cache-manager';
-import { Controller, Get, UseInterceptors } from '@nestjs/common';
+import { Controller, Get, UseInterceptors } from '@fily-cloud/common';
 
 @Controller()
 @UseInterceptors(CacheInterceptor)

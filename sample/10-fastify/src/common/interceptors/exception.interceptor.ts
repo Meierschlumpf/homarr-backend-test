@@ -5,7 +5,7 @@ import {
   HttpStatus,
   Injectable,
   NestInterceptor,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 

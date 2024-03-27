@@ -1,4 +1,4 @@
-import { InjectionToken } from '@nestjs/common';
+import { InjectionToken } from '@fily-cloud/common';
 import { Injector } from '../injector/injector';
 import { InstanceWrapper } from '../injector/instance-wrapper';
 import { Module } from '../injector/module';

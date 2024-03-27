@@ -1,4 +1,4 @@
-import { Scope } from '@nestjs/common';
+import { Scope } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { STATIC_CONTEXT } from '../../injector/constants';

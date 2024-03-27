@@ -9,7 +9,7 @@ import {
 import { Post } from './models/post.model';
 import { User } from './models/user.model';
 import { PostsService } from './posts.service';
-import { ParseIntPipe } from '@nestjs/common';
+import { ParseIntPipe } from '@fily-cloud/common';
 
 @Resolver((of) => Post)
 export class PostsResolver {

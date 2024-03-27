@@ -1,4 +1,4 @@
-import { Inject, Module } from '@nestjs/common';
+import { Inject, Module } from '@fily-cloud/common';
 import {
   ConfigurableModuleClass,
   MODULE_OPTIONS_TOKEN,

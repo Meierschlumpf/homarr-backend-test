@@ -1,4 +1,4 @@
-import { Controller, Get, VERSION_NEUTRAL } from '@nestjs/common';
+import { Controller, Get, VERSION_NEUTRAL } from '@fily-cloud/common';
 
 @Controller({
   path: 'middleware',

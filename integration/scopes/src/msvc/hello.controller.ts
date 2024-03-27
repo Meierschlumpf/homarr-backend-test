@@ -1,4 +1,4 @@
-import { Controller, UseGuards, UseInterceptors } from '@nestjs/common';
+import { Controller, UseGuards, UseInterceptors } from '@fily-cloud/common';
 import { MessagePattern } from '@nestjs/microservices';
 import { Guard } from './guards/request-scoped.guard';
 import { HelloService } from './hello.service';

@@ -1,10 +1,10 @@
-import { UseFilters, UseInterceptors } from '@nestjs/common';
+import { UseFilters, UseInterceptors } from '@fily-cloud/common';
 import {
   MessageBody,
   SubscribeMessage,
   WebSocketGateway,
   WsException,
-} from '@nestjs/websockets';
+} from '@fily-cloud/websockets';
 import { RequestInterceptor } from './request.interceptor';
 import { throwError } from 'rxjs';
 import { RequestFilter } from './request.filter';

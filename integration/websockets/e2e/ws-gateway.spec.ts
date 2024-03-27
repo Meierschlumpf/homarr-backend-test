@@ -1,6 +1,6 @@
-import { INestApplication } from '@nestjs/common';
+import { INestApplication } from '@fily-cloud/common';
 import { WsAdapter } from '@nestjs/platform-ws';
-import { Test } from '@nestjs/testing';
+import { Test } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import * as WebSocket from 'ws';
 import { ApplicationGateway } from '../src/app.gateway';

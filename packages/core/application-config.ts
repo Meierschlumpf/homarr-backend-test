@@ -5,8 +5,8 @@ import {
   PipeTransform,
   VersioningOptions,
   WebSocketAdapter,
-} from '@nestjs/common';
-import { GlobalPrefixOptions } from '@nestjs/common/interfaces';
+} from '@fily-cloud/common';
+import { GlobalPrefixOptions } from '@fily-cloud/common/interfaces';
 import { InstanceWrapper } from './injector/instance-wrapper';
 import { ExcludeRouteMetadata } from './router/interfaces/exclude-route-metadata.interface';
 

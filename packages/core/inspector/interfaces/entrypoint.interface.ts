@@ -1,5 +1,5 @@
-import { RequestMethod } from '@nestjs/common';
-import { VersionValue } from '@nestjs/common/interfaces';
+import { RequestMethod } from '@fily-cloud/common';
+import { VersionValue } from '@fily-cloud/common/interfaces';
 
 export type HttpEntrypointMetadata = {
   path: string;

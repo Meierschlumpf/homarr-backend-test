@@ -1,9 +1,9 @@
-import { DynamicModule, Provider } from '@nestjs/common';
+import { DynamicModule, Provider } from '@fily-cloud/common';
 import {
   EnhancerSubtype,
   GLOBAL_MODULE_METADATA,
-} from '@nestjs/common/constants';
-import { Injectable, Type } from '@nestjs/common/interfaces';
+} from '@fily-cloud/common/constants';
+import { Injectable, Type } from '@fily-cloud/common/interfaces';
 import { ApplicationConfig } from '../application-config';
 import { DiscoverableMetaHostCollection } from '../discovery/discoverable-meta-host-collection';
 import {

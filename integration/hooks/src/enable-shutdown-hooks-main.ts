@@ -3,7 +3,7 @@ import {
   Injectable,
   Module,
   OnApplicationShutdown,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { NestFactory } from '@nestjs/core';
 const SIGNAL = process.argv[2];
 const SIGNAL_TO_LISTEN = process.argv[3];

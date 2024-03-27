@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@fily-cloud/common';
 import { CreateCatDto } from './dto/create-cat.dto';
 import { Cat } from './entities/cat.entity';
 

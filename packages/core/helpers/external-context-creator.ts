@@ -1,11 +1,11 @@
-import { ForbiddenException, ParamData } from '@nestjs/common';
-import { CUSTOM_ROUTE_ARGS_METADATA } from '@nestjs/common/constants';
+import { ForbiddenException, ParamData } from '@fily-cloud/common';
+import { CUSTOM_ROUTE_ARGS_METADATA } from '@fily-cloud/common/constants';
 import {
   ContextType,
   Controller,
   PipeTransform,
-} from '@nestjs/common/interfaces';
-import { isEmpty } from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/interfaces';
+import { isEmpty } from '@fily-cloud/common/utils/shared.utils';
 import { lastValueFrom, isObservable } from 'rxjs';
 import { ExternalExceptionFilterContext } from '../exceptions/external-exception-filter-context';
 import { FORBIDDEN_MESSAGE } from '../guards/constants';

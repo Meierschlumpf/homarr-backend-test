@@ -1,4 +1,4 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable, Logger } from '@fily-cloud/common';
 import { Cron, Interval, Timeout } from '@nestjs/schedule';
 
 @Injectable()

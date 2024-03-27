@@ -1,4 +1,4 @@
-import { clc } from '@nestjs/common/utils/cli-colors.util';
+import { clc } from '@fily-cloud/common/utils/cli-colors.util';
 import { repl } from '@nestjs/core';
 import { ReplContext } from '@nestjs/core/repl/repl-context';
 import {

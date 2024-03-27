@@ -1,6 +1,6 @@
-import { ForbiddenException } from '@nestjs/common';
-import { CUSTOM_ROUTE_ARGS_METADATA } from '@nestjs/common/constants';
-import { RouteParamtypes } from '@nestjs/common/enums/route-paramtypes.enum';
+import { ForbiddenException } from '@fily-cloud/common';
+import { CUSTOM_ROUTE_ARGS_METADATA } from '@fily-cloud/common/constants';
+import { RouteParamtypes } from '@fily-cloud/common/enums/route-paramtypes.enum';
 import { expect } from 'chai';
 import { of } from 'rxjs';
 import * as sinon from 'sinon';

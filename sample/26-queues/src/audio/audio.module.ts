@@ -1,5 +1,5 @@
 import { BullModule } from '@nestjs/bull';
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { AudioController } from './audio.controller';
 import { AudioProcessor } from './audio.processor';
 

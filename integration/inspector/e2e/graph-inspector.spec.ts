@@ -1,8 +1,8 @@
-import { ValidationPipe } from '@nestjs/common';
+import { ValidationPipe } from '@fily-cloud/common';
 import { Injector } from '@nestjs/core/injector/injector';
 import { SerializedGraph } from '@nestjs/core/inspector/serialized-graph';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test, TestingModule } from '@fily-cloud/testing';
 import { expect } from 'chai';
 import { readFileSync } from 'fs';
 import { join } from 'path';

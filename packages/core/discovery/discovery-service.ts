@@ -3,7 +3,7 @@ import {
   flatten,
   Injectable,
   SetMetadata,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { uid } from 'uid';
 import { InstanceWrapper } from '../injector/instance-wrapper';
 import { Module } from '../injector/module';

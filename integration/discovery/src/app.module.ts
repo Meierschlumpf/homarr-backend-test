@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@fily-cloud/common';
 import { DiscoveryModule } from '@nestjs/core';
 import { MyWebhookModule } from './my-webhook/my-webhook.module';
 import { WebhooksExplorer } from './webhooks.explorer';

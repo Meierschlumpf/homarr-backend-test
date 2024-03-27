@@ -6,7 +6,7 @@ import {
   MiddlewareConsumer,
   NestMiddleware,
   Module,
-} from '@nestjs/common';
+} from '@fily-cloud/common';
 import { Test } from '../../../packages/testing';
 import * as request from 'supertest';
 import { expect } from 'chai';

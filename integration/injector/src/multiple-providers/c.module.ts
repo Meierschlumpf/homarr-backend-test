@@ -1,4 +1,4 @@
-import { Module, Scope } from '@nestjs/common';
+import { Module, Scope } from '@fily-cloud/common';
 
 @Module({
   providers: [

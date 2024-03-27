@@ -1,13 +1,19 @@
-import { Logger, LoggerService, Provider, Scope, Type } from '@nestjs/common';
-import { EnhancerSubtype } from '@nestjs/common/constants';
-import { FactoryProvider, InjectionToken } from '@nestjs/common/interfaces';
-import { clc } from '@nestjs/common/utils/cli-colors.util';
-import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
+import {
+  Logger,
+  LoggerService,
+  Provider,
+  Scope,
+  Type,
+} from '@fily-cloud/common';
+import { EnhancerSubtype } from '@fily-cloud/common/constants';
+import { FactoryProvider, InjectionToken } from '@fily-cloud/common/interfaces';
+import { clc } from '@fily-cloud/common/utils/cli-colors.util';
+import { randomStringGenerator } from '@fily-cloud/common/utils/random-string-generator.util';
 import {
   isNil,
   isString,
   isUndefined,
-} from '@nestjs/common/utils/shared.utils';
+} from '@fily-cloud/common/utils/shared.utils';
 import { iterate } from 'iterare';
 import { UuidFactory } from '../inspector/uuid-factory';
 import { STATIC_CONTEXT } from './constants';

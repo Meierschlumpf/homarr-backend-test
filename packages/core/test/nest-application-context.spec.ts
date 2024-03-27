@@ -1,4 +1,4 @@
-import { InjectionToken, Scope } from '@nestjs/common';
+import { InjectionToken, Scope } from '@fily-cloud/common';
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { ContextIdFactory } from '../helpers/context-id-factory';
